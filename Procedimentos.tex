@@ -26,10 +26,10 @@ $$\%\; de\; erro = \frac{valor \; prático - valor \; teórico}{valor \; teóric
 		\begin{tabular}{cccc}
 			\hline
 			\textit{\textbf{Medida}} & \textit{\textbf{Valores teóricos}} & \textit{\textbf{Valores práticos}} & \textit{\textbf{Erro (\%)}} \\ \hline
-			Ic(SAT)                  & 9,86 mA                            & 10,15 mA                           & 2,96                        \\
-			Ib(SAT)                  & 30,43 uA                           & 31,30uA                            & 2,87                        \\
-			Bcc(SAT)                 & 324                                & 324,28                             & 0,09                        \\
-			Vce(SAT)                 & 14,01 V                            & 14,21 V                            & 1,39                       
+			$ I_C $(SAT)                  & 13,5 $ mA $                            & 12,4 $ mA $                           &  8,15 $ \% $                       \\
+			$ I_B $(SAT)                  & 1,43 $ mA $                           & 1,42 $ mA $                            & 0,7 $ \% $                        \\
+			$ \beta_{CC} $(SAT)                 & 9,44                                & 8,73                             & 7,52 $ \% $                        \\
+			$ V_{CE} $(SAT)                 & 0 $ V $                            & 413 $ mV $                            &                        
 		\end{tabular}
 		\legend{Fonte: Produzido pelos autores}
 		\label{Tabela1}
@@ -47,11 +47,11 @@ $$\%\; de\; erro = \frac{valor \; prático - valor \; teórico}{valor \; teóric
 	\toprule
 	Variável & Valor teórico & Valor prático & Erro (\%) \\
 	\midrule \midrule
-	$I_{C}$ (CORTE) & 9,86 mA & 10,15 mA & 2,96 \\
+	$I_{C}$ (CORTE) & 0 $ A $ & 0 $ A $ & 0 $ \% $ \\
 	\midrule
-	$I_{B}$ (CORTE) & 30,42 $\mu A$ & 31,3 $\mu A$ & 2,87 \\
+	$I_{B}$ (CORTE) & 0 $ A$ & 0 $ A $ & 0 $ \% $ \\
 	\midrule
-	$VCE$ (SAT) & 9,89 mA & 10,15 mA & 2,85 \\
+	$V_{CE}$ (SAT) & 13,5 $ V $ & 15 $ V $ & 11,11 $ \% $ \\
 	\midrule
 	\bottomrule
 \end{tabular}%
@@ -62,7 +62,7 @@ $$\%\; de\; erro = \frac{valor \; prático - valor \; teórico}{valor \; teóric
 
 	\item Verifique na folha de dados do transistor BC547B os valores de $ V_{CE} $ (SAT) $ V $ e de $ I_C $ (CORTE). Compare com os valores medidos.
 	
-Neste experimento usamos o transistor $ 2N2222 $, que de acordo como o datasheet, $ V_{CE} =   V$ e $ I_C = $ 
+Neste experimento usamos o transistor $ 2N2222 $, que de acordo como o datasheet, $ V_{CE} = 0,4 V$ e $ I_C = 0,01 \mu A$, onde no prático tivemos $ V_{CE} = 413 mV$ e $ I_C = 0 A$
 
 
 
