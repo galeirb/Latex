@@ -8,3 +8,6 @@
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Procedimentos e resultados}}{6}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Conclus\~{a}o}}{8}{chapter.2}
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{9}{section*.7}

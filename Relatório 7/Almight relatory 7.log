@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  6 AUG 2017 22:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  6 AUG 2017 22:51
 entering extended mode
 **"./Almight relatory 7.tex"
 ("Almight relatory 7.tex"
@@ -1469,7 +1469,21 @@ l.122
 ]
 \openout2 = `Introducao.aux'.
 
- (Introducao.tex) [5
+ (Introducao.tex
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 7.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 7.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 9.
+)
+[5
 
 
 
@@ -1482,7 +1496,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 14.
 See the caption package documentation for explanation.
 
-<Imagens/Figura1.jpg, id=46, 679.78969pt x 453.94594pt>
+<Imagens/Figura1.jpg, id=55, 679.78969pt x 453.94594pt>
 File: Imagens/Figura1.jpg Graphic file (type jpg)
 <use Imagens/Figura1.jpg>
 Package pdftex.def Info: Imagens/Figura1.jpg  used on input line 14. on input l
@@ -1520,42 +1534,62 @@ See the caption package documentation for explanation.
 
 
 
-]
-\tf@toc=\write5
-\openout5 = `"Almight relatory 7.toc"'.
+] ("Almight relatory 7.bbl" ("Almight relatory 7.brf")
+\tf@brf=\write5
+\openout5 = `"Almight relatory 7.brf"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
- ("Almight relatory 7.aux" (Resumo.aux) (Abstract.aux) (Introducao.aux) (Proced
-imentos.aux) (Conclusao.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 140.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 3.
+
+bibitemlist
+
+LaTeX Warning: Empty `thebibliography' environment on input line 8.
+
+) [9
+
+
+]
+\tf@toc=\write6
+\openout6 = `"Almight relatory 7.toc"'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
+ ("Almight relatory 7.aux" (Resumo.aux) (Abstract.aux) (Introducao.aux)
+(Procedimentos.aux) (Conclusao.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+Package rerunfilecheck Info: File `"Almight relatory 7".brf' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
  ) 
 Here is how much of TeX's memory you used:
- 17065 strings out of 493323
- 255554 string characters out of 3139034
- 534794 words of memory out of 3000000
- 20186 multiletter control sequences out of 15000+200000
- 60601 words of font info for 81 fonts, out of 3000000 for 9000
+ 17161 strings out of 493323
+ 256991 string characters out of 3139034
+ 534799 words of memory out of 3000000
+ 20252 multiletter control sequences out of 15000+200000
+ 78758 words of font info for 100 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,92p,703b,578s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,92p,893b,578s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
+nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy
 .enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss
-17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "Almight relatory 7.pdf" (9 pages, 264846 bytes).
+Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbol
+s/msam10.pfb>
+Output written on "Almight relatory 7.pdf" (10 pages, 312637 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 20542 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 24646 words of extra memory for PDF output out of 24883 (max. 10000000)
 
