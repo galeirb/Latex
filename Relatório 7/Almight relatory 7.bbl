@@ -5,4 +5,11 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Utiluz]{intro}
+\abntrefinfo{Utiluz}{UTILUZ}{}
+{UTILUZ. \emph{LED - O que é, como funciona}.
+Dispon{\'\i}vel em:
+  \url{http://www.iar.unicamp.br/lab/luz/dicasemail/led/dica36.htm}. Acesso em:
+  4 de agosto de 2017.}
+
 \end{thebibliography}

@@ -7,8 +7,10 @@ A level-1 auxiliary file: Conclusao.aux
 The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
 Database file #2: Referencias.bib
+Warning--campo year vazio ou faltando em intro
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
+(There was 1 warning)
