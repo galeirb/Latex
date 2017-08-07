@@ -35,6 +35,30 @@ $$\%\; de\; erro = \frac{valor \; prático - valor \; teórico}{valor \; teóric
 		\label{Tabela1}
 \end{minipage}}
 
+\centerline{\begin{minipage}[c]{\textwidth}
+		\centering
+		\noindent
+		\captionof{table}{Valores teóricos e práticos na condição de corte}
+		\begin{tabular}{cccccc}
+			\toprule
+			Variável & Valor teórico & Valor prático & Erro (\%) \\
+			\midrule \midrule
+			$I_{LED}$ &  $ A $ & $ 19,7 mA $ & 0 $ \% $ \\
+			\midrule
+			$I_{B}$ &  $ A$ & $ 1,066 mA $ & 0 $ \% $ \\
+			\midrule
+			$I_{C}$ &  $ A $ & $ 19,69 mA $ & 11,11 $ \% $ \\
+			\midrule
+			$V_{CE}$ &  $ V $ & $ 2,449 V $ & 11,11 $ \% $ \\
+			\midrule
+			$\beta$ & $ V $ & $ 18,47 $ & 11,11 $ \% $ \\
+			\midrule
+			\bottomrule
+		\end{tabular}%
+		\legend{Fonte: Produzido pelos autores}
+		\label{Tabela5}
+\end{minipage}}
+
 
 	\item Monte o circuito da Figura \ref{Figura1} com o transitor bipolar atuando na condição de corte. Meça as variáveis mostradas na Tabela \ref{Tabela2} e calcle os erros percentuais.
 
@@ -43,15 +67,19 @@ $$\%\; de\; erro = \frac{valor \; prático - valor \; teórico}{valor \; teóric
 	\centering
 	\noindent
 	\captionof{table}{Valores teóricos e práticos na condição de corte}
-\begin{tabular}{cccc}
+\begin{tabular}{cccccc}
 	\toprule
 	Variável & Valor teórico & Valor prático & Erro (\%) \\
 	\midrule \midrule
-	$I_{C}$ (CORTE) & 0 $ A $ & 0 $ A $ & 0 $ \% $ \\
+	$I_{LED}$ &  $ A $ & $ 19,7 mA $ & 0 $ \% $ \\
 	\midrule
-	$I_{B}$ (CORTE) & 0 $ A$ & 0 $ A $ & 0 $ \% $ \\
+	$I_{B}$ &  $ A$ & $ 1,066 mA $ & 0 $ \% $ \\
 	\midrule
-	$V_{CE}$ (SAT) & 13,5 $ V $ & 15 $ V $ & 11,11 $ \% $ \\
+	$I_{C}$ &  $ A $ & $ 19,69 mA $ & 11,11 $ \% $ \\
+	\midrule
+	$V_{CE}$ &  $ V $ & $ 2,449 V $ & 11,11 $ \% $ \\
+	\midrule
+	$\beta$ & $ V $ & $ 18,47 $ & 11,11 $ \% $ \\
 	\midrule
 	\bottomrule
 \end{tabular}%
