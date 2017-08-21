@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  21 AUG 2017 02:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  21 AUG 2017 02:11
 entering extended mode
 **"./Almight relatory 9.tex"
 ("Almight relatory 9.tex"
@@ -1479,24 +1479,20 @@ l.122
  (Procedimentos.tex
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 14.
+(caption)                particular \caption on input line 15.
 See the caption package documentation for explanation.
 
-<Imagens/Figura1.jpg, id=48, 885.3075pt x 416.30531pt>
+<Imagens/Figura1.jpg, id=52, 885.3075pt x 416.30531pt>
 File: Imagens/Figura1.jpg Graphic file (type jpg)
 <use Imagens/Figura1.jpg>
-Package pdftex.def Info: Imagens/Figura1.jpg  used on input line 14. on input l
-ine 14.
+Package pdftex.def Info: Imagens/Figura1.jpg  used on input line 15. on input l
+ine 15.
 Package pdftex.def Info: Requested size: 409.49722pt x 192.5636pt on input line
- 14.
+ 15.
 
-LaTeX Warning: Command \' invalid in math mode on input line 30.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 30.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 30.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 55.
+See the caption package documentation for explanation.
 
 [6
 
@@ -1505,22 +1501,50 @@ LaTeX Warning: Command \' invalid in math mode on input line 30.
  <./Imagens/Figura1.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 62.
+(caption)                particular \caption on input line 82.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 82.
+
+[7]
+
+LaTeX Warning: Command \' invalid in math mode on input line 92.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 92.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 92.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 137.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 87.
+(caption)                particular \caption on input line 162.
 See the caption package documentation for explanation.
 
-) [7]
+
+LaTeX Warning: Command \' invalid in math mode on input line 162.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 162.
+
+) [8] [9]
 \openout2 = `Conclusao.aux'.
 
- (Conclusao.tex) [8
+ (Conclusao.tex) [10
 
 
 
-] ("Almight relatory 9.bbl" ("Almight relatory 9.brf")
+] ("Almight relatory 9.bbl"
+("Almight relatory 9.brf")
 \tf@brf=\write5
 \openout5 = `"Almight relatory 9.brf"'.
 
@@ -1533,7 +1557,7 @@ bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [9
+) [11
 
 
 ]
@@ -1551,27 +1575,28 @@ Package rerunfilecheck Info: File `"Almight relatory 9".brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 17069 strings out of 493323
- 255603 string characters out of 3139034
- 535754 words of memory out of 3000000
- 20189 multiletter control sequences out of 15000+200000
- 55634 words of font info for 73 fonts, out of 3000000 for 9000
+ 17082 strings out of 493323
+ 255741 string characters out of 3139034
+ 537952 words of memory out of 3000000
+ 20196 multiletter control sequences out of 15000+200000
+ 58423 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,92p,471b,524s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fon
-ts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
+ 55i,12n,92p,471b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
 .enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss
-bx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "Almight relatory 9.pdf" (10 pages, 259848 bytes).
+Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on "Almight relatory 9.pdf" (12 pages, 287815 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 18502 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 19030 words of extra memory for PDF output out of 20736 (max. 10000000)
 

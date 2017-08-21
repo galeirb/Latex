@@ -5,9 +5,11 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{Introdu\c {c}\~{a}o}{5}{chapter*.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Procedimentos e resultados}}{6}{chapter.1}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Desenvolvimento}}{6}{chapter.1}
+\contentsline {section}{\numberline {1.1}Procedimentos}{6}{section.1.1}
+\contentsline {section}{\numberline {1.2}Resultados}{8}{section.1.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Conclus\~{a}o}}{8}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Conclus\~{a}o}}{10}{chapter.2}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{9}{section*.7}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{11}{section*.7}
