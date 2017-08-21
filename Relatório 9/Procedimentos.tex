@@ -8,36 +8,52 @@
 		\centering
 		\noindent
 		\captionof{figure}{Transistor bipolar atuando como fonte de corrente}
-		\includegraphics[width=0.5\textwidth]{Imagens/Figura1.jpg}
+		\includegraphics[width=0.9\textwidth]{Imagens/Figura1.jpg}
 		\legend{Fonte: Produzido pelos autores}
 		\label{Figura1}
 \end{minipage}}
 
 
 \begin{enumerate}
-	\item Monte o circuito da Figura \ref{Figura1}, meça as variáveis mostradas na Tabela \ref{Tabela1} e calcule os erros percentuais:
+	\item Monte somente o circuito de polarização do circuito da Figura \ref{Figura1}. Com o auxílio do multímetro, meça as variáveis e complete a Tabela \ref{Tabela1}. Caso o seu circuito de polarização esteja operando corretamente, passe para o próximo item desta experiência. Caso  contrário,  descubra  o  que  há  de  errado  com  a  sua  montagem  e  refaça  as  suas medidas $ CC $.
+	
+	\item Monte o circuito completo da Figura \ref{Figura1}. Com  o  auxílio  do  osciloscópio,  meça  as variáveis solicitadas e complete a Tabela \ref{Tabela2}. 
+	
+	\item Utilize o canal $ 1 $ do osciloscópio para verificar o sinal de entrada do amplificador de tensão e o canal $ 2 $, para o sinal de saída do circuito. Tais formas de onda estão invertidas uma em relação à outra? Por quê?
+	
+	\item Com o osciloscópio em $ DC $, meça o sinal no coletor do transistor bipolar. Perceba a existência de um nível $ CC $ e de um sinal $ CA $ nesse ponto. Em seguida, verifique o sinal na  carga,  após  o  capacitor  de  $ 1\mu F $.  Note  que  há  apenas  um  sinal  $ CA $.  Por  que  isso ocorre? 
+	
+	\item Com o osciloscópio em $ DC $, meça o sinal no emissor do transistor bipolar. Perceba a existência de um nível $ CC $. Por que isso ocorre? 
+	
+	\item Calcule os erros das suas medidas e complete as Tabelas \ref{Tabela1} e \ref{Tabela2}. Considere que o erro é dado por 
 
 $$\%\; de\; erro = \frac{valor \; prático - valor \; teórico}{valor \; teórico} \times 100$$
 
-	Considerando uma queda de tensão no led em condução de $ 1,5 V $ e de acordo com o datasheet do transistor $ 2N2222 $, temos $ \beta = 150 $, completando assim a Tabela \ref{Tabela1}:
-
+	\item Analise os seus resultados (valores obtidos, erros, possíveis fonte de erros, ...)
+	
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
 		\noindent
-		\captionof{table}{Valores teóricos e práticos do circuito da Figura 1}
+		\captionof{table}{Valores $ CC $ teóricos e práticos}
 		\begin{tabular}{cccccc}
 			\toprule
 			Variável & Valor teórico & Valor prático & Erro (\%) \\
 			\midrule \midrule
-			$I_{LED}$ &  $ 20mA $ & $ 19,7 mA $ & $1,5 \% $ \\
+			$V_C$ &  $ 3,02V $ & $ 5,32V $ & $1,5 \% $ \\
 			\midrule
-			$I_{B}$ &  $ 133,33\mu A$ & $ 1,066 mA $ & $ 699 \% $ \\
+			$V_B$ &  $ 0,7V $ & $ 0,67V $ & $1,5 \% $ \\
 			\midrule
-			$I_{C}$ &  $ 20mA $ & $ 19,69 mA $ & $ 1,55\% $ \\
+			$V_E$ &  $ 0V $ & $ 0,015V $ & $1,5 \% $ \\
 			\midrule
-			$V_{CE}$ &  $ 4,1V $ & $ 2,449 V $ & $ 40,26 \% $ \\
+			$V_{CE}$ &  $ 3,02V $ & $ 5,32 V $ & $1,5 \% $ \\
 			\midrule
-			$\beta$ & $ 150 $ & $ 18,47 $ & $ 87,68 \% $ \\
+			$I_{C}$ &  $ 10,26mA$ & $ 6,87 mA $ & $ 699 \% $ \\
+			\midrule
+			$I_{B}$ &  $ 34,44\mu A $ & $ 34,44\mu A $ & $ 1,55\% $ \\
+			\midrule
+			$\beta_{CC}$ & $ 298 $ & $ 298 $ & $ 87,68 \% $ \\
+			\midrule
+			$P_D$ &  $ 30,98 mW $ & $ 36,54mW $ & $ \% $ \\
 			\midrule
 			\bottomrule
 		\end{tabular}%
@@ -45,32 +61,11 @@ $$\%\; de\; erro = \frac{valor \; prático - valor \; teórico}{valor \; teóric
 		\label{Tabela1}
 \end{minipage}}
 
-	Com a Tabela \ref{Tabela1}, percebemos uma grande diferença entre o valor teórico e o valor prático, que de acordo com que analisamos, essa grande diferença vem da questão da queda de tensão do LED no teórico foi de $ 1,5V $, sendo que na prática, o LED que usamos tinha a queda de tensão de $ 3,12 V $. E outro motivo para diferenciarem tanto os valores, foi a questão da obtenção do $ \beta $, tendo um valor bem diferente do prático, para efeitos de comparação, refizemos os cálculos teóricos, tendo a queda de tensão do LED com $ 3,12 V $ e o $ \beta $ sendo $ 18,47 $, de acordo com que achamos na prática:
 	
-	\begin{center}
-		\textit{Análise de Malha Coletor-Emissor}
-	\end{center}
-	
-	\begin{center}
-		$ -10V+3,12V+V_{CE} +220\Omega\times I_C=0 \Rightarrow V_{CE}=+10V-3,12V-220\Omega(20mA)$
-	\end{center}
-	
-	\begin{center}
-		$ \therefore V_{CE}=2,48V $
-	\end{center}
-	
-	Com $ \beta = 18,47 $, temos que:
-	
-	\begin{center}
-		$I_B=\dfrac{I_C}{(\beta+1)}=\dfrac{20mA}{(18,47+1)}=1,027mA $
-	\end{center}
-
-	Completando novamente a tabela com os novos dados, lembrando que $ I_C=I_{LED} $, temos:
-
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
 		\noindent
-		\captionof{table}{Valores teóricos e práticos do circuito com as alterações}
+		\captionof{table}{Valores $ CA $ teóricos e práticos}
 		\begin{tabular}{cccccc}
 			\toprule
 			Variável & Valor teórico & Valor prático & Erro (\%) \\
@@ -91,6 +86,6 @@ $$\%\; de\; erro = \frac{valor \; prático - valor \; teórico}{valor \; teóric
 		\label{Tabela2}
 \end{minipage}}
 
-	De acordo com Tabela \ref{Tabela2}, temos uma diferença muito menor da prática para o teórico, apresentando os dois valores aproximados.
+	
 	
 \end{enumerate}
