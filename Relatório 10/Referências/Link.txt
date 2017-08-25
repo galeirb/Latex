@@ -1,0 +1,5 @@
+1 - http://intranet.ctism.ufsm.br/gsec/Apostilas/filtropassivo.pdf
+2 - http://www.pads.ufrj.br/~joarez/Resposta%20em%20frequencia%20de%20amplificadores_rev1.pdf
+3 - https://app.cear.ufpb.br/~asergio/Eletronica/Transistor/Amplificador%20com%20transistor.pdf
+4 - http://www.demic.fee.unicamp.br/~elnatan/ee640/10a%20Aula.pdf
+5 - 
