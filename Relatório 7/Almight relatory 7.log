@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  6 AUG 2017 23:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.3)  21 AUG 2017 14:10
 entering extended mode
 **"./Almight relatory 7.tex"
 ("Almight relatory 7.tex"
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\abntex2\abntex2.cls"
 Document Class: abntex2 2016/02/26 v-1.9.6 abnTeX2
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -471,7 +471,7 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count149
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/05/19 3.10 The Babel package
+Package: babel 2016/04/23 3.9r The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
@@ -481,10 +481,10 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
-Language: english 2017/06/06 v3.3r English support from the babel system
+Language: english 2017/01/24 v3.3q English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/05/19 3.10 Babel common definitions
+File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count150
 \U@D=\dimen151
 )
@@ -493,35 +493,35 @@ File: babel.def 2017/05/19 3.10 Babel common definitions
 \l@newzealand = a dialect from \language\l@british 
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\frenchb.ldf"
-Language: frenchb 2017/04/30 v3.3a French support from the babel system
+Language: frenchb 2017/01/30 v3.2g French support from the babel system
 \l@acadian = a dialect from \language\l@french 
 \l@canadien = a dialect from \language\l@french 
 \FB@nonchar=\count151
-\FBcolonsp=\toks23
-\FBthinsp=\toks24
-Package babel Info: Making : an active character on input line 362.
-Package babel Info: Making ; an active character on input line 363.
-Package babel Info: Making ! an active character on input line 364.
-Package babel Info: Making ? an active character on input line 365.
-\FBguillsp=\toks25
+\FBcolonskip=\skip186
+\FBthinskip=\skip187
+Package babel Info: Making : an active character on input line 365.
+Package babel Info: Making ; an active character on input line 366.
+Package babel Info: Making ! an active character on input line 367.
+Package babel Info: Making ? an active character on input line 368.
+\FBguillskip=\skip188
 \FBguill@level=\count152
-\FB@everypar=\toks26
+\FB@everypar=\toks23
 \FB@Mht=\dimen152
 \mc@charclass=\count153
 \mc@charfam=\count154
 \mc@charslot=\count155
 \std@mcc=\count156
 \dec@mcc=\count157
-\listindentFB=\skip186
-\descindentFB=\skip187
-\labelwidthFB=\skip188
-\leftmarginFB=\skip189
+\listindentFB=\skip189
+\descindentFB=\skip190
+\labelwidthFB=\skip191
+\leftmarginFB=\skip192
 \parindentFFN=\dimen153
-\FBfnindent=\skip190
+\FBfnindent=\skip193
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-\es@quottoks=\toks27
+\es@quottoks=\toks24
 \es@quotdepth=\count158
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
@@ -535,9 +535,9 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 ("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
 ("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip191
+\labelindent=\skip194
 \enit@outerparindent=\dimen154
-\enit@toks=\toks28
+\enit@toks=\toks25
 \enit@inbox=\box29
 \enitdp@description=\count159
 )
@@ -547,12 +547,12 @@ Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count161
 \calc@Adimen=\dimen155
 \calc@Bdimen=\dimen156
-\calc@Askip=\skip192
-\calc@Bskip=\skip193
+\calc@Askip=\skip256
+\calc@Bskip=\skip257
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count162
-\calc@Cskip=\skip194
+\calc@Cskip=\skip258
 )
 
 ******************************************************
@@ -575,9 +575,9 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
 \c@abntex@bookmarkcounter=\count163
-\cftlastnumwidth=\skip256
-\chapternamenumlength=\skip257
-\ABNTEXcitacaorecuo=\skip258
+\cftlastnumwidth=\skip259
+\chapternamenumlength=\skip260
+\ABNTEXcitacaorecuo=\skip261
 \c@alineasi=\count164
 \c@alineasii=\count165
 \enitdp@alineas=\count166
@@ -585,9 +585,9 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 \enitdp@subalineas=\count168
 \c@incisosi=\count169
 \enitdp@incisos=\count170
-\ABNTEXsignwidth=\skip259
-\ABNTEXsignthickness=\skip260
-\ABNTEXsignskip=\skip261
+\ABNTEXsignwidth=\skip262
+\ABNTEXsignthickness=\skip263
+\ABNTEXsignskip=\skip264
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -632,8 +632,8 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks29
-\inpenc@posthook=\toks30
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
@@ -962,13 +962,14 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 147.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/06/01 v1.0a Graphics/color driver for pdftex
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count171
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/06/01 v1.2a Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -983,19 +984,19 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks31
-\MT@count=\count171
+\MT@toks=\toks28
+\MT@count=\count172
 LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen159
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count172
+\MT@listname@count=\count173
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 916.
 LaTeX Info: Redefining \lslig on input line 916.
-\MT@outer@space=\skip262
+\MT@outer@space=\skip265
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -1004,10 +1005,10 @@ File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count173
-\float@exts=\toks32
+\c@float@type=\count174
+\float@exts=\toks29
 \float@box=\box30
-\@float@everytoks=\toks33
+\@float@everytoks=\toks30
 \@floatcapt=\box31
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
@@ -1018,10 +1019,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks34
-\XKV@tempa@toks=\toks35
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
 )
-\XKV@depth=\count174
+\XKV@depth=\count175
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
@@ -1051,13 +1052,13 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count175
+\c@checkoddpage=\count176
 LaTeX Info: Redefining \checkoddpage on input line 45.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box33
-\sift@deathcycles=\count176
+\sift@deathcycles=\count177
 \@vwid@loff=\dimen168
 \@vwid@roff=\dimen169
 ))
@@ -1066,7 +1067,7 @@ Package: mwe 2012/05/15 v0.3 Package to support minimal working examples (MWE)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count177
+\c@lips@count=\count178
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -1074,24 +1075,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count178
-\c@Blindtext=\count179
-\c@blind@countparstart=\count180
-\blind@countxx=\count181
-\blindtext@numBlindtext=\count182
-\blind@countyy=\count183
-\c@blindlist=\count184
-\c@blindlistlevel=\count185
-\c@blindlist@level=\count186
-\blind@listitem=\count187
-\c@blind@listcount=\count188
-\c@blind@levelcount=\count189
-\blind@mathformula=\count190
-\blind@Mathformula=\count191
-\c@blind@randomcount=\count192
-\c@blind@randommax=\count193
-\c@blind@pangramcount=\count194
-\c@blind@pangrammax=\count266
+\c@blindtext=\count179
+\c@Blindtext=\count180
+\c@blind@countparstart=\count181
+\blind@countxx=\count182
+\blindtext@numBlindtext=\count183
+\blind@countyy=\count184
+\c@blindlist=\count185
+\c@blindlistlevel=\count186
+\c@blindlist@level=\count187
+\blind@listitem=\count188
+\c@blind@listcount=\count189
+\c@blind@levelcount=\count190
+\blind@mathformula=\count191
+\blind@Mathformula=\count192
+\c@blind@randomcount=\count193
+\c@blind@randommax=\count194
+\c@blind@pangramcount=\count266
+\c@blind@pangrammax=\count267
 ))
 
 Class memoir Warning: You are using the caption package with the memoir class. 
@@ -1114,12 +1115,12 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen175
 \caption@hangindent=\dimen176
 )
-\c@ContinuedFloat=\count267
+\c@ContinuedFloat=\count268
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cellspace\cellspace.sty"
-Package: cellspace 2009/07/31 v1.6 Spacing table cells (JN)
+Package: cellspace 2017/08/12 v1.7 Spacing table cells (JN)
 \cellspacetoplimit=\dimen177
 \cellspacebottomlimit=\dimen178
 \cellspace@firstht=\dimen179
@@ -1128,27 +1129,27 @@ Package: cellspace 2009/07/31 v1.6 Spacing table cells (JN)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\was\gensymb.sty"
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-\@float@every@table=\toks36
+\@float@every@table=\toks33
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\placeins\placeins.sty"
 Package: placeins 2005/04/18  v 2.2
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count268
+\c@tracingmulticols=\count269
 \mult@box=\box34
 \multicol@leftmargin=\dimen181
-\c@unbalance=\count269
-\c@collectmore=\count270
-\doublecol@number=\count271
-\multicoltolerance=\count272
-\multicolpretolerance=\count273
+\c@unbalance=\count270
+\c@collectmore=\count271
+\doublecol@number=\count272
+\multicoltolerance=\count273
+\multicolpretolerance=\count274
 \full@width=\dimen182
 \page@free=\dimen183
 \premulticols=\dimen184
 \postmulticols=\dimen185
-\multicolsep=\skip263
-\multicolbaselineskip=\skip264
+\multicolsep=\skip266
+\multicolbaselineskip=\skip267
 \partial@page=\box35
 \last@line=\box36
 \maxbalancingoverflow=\dimen186
@@ -1173,20 +1174,20 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box55
 \@tempa=\box56
 \@tempa=\box57
-\c@columnbadness=\count274
-\c@finalcolumnbadness=\count275
+\c@columnbadness=\count275
+\c@finalcolumnbadness=\count276
 \last@try=\dimen187
 \multicolovershoot=\dimen188
 \multicolundershoot=\dimen189
 \mult@nat@firstbox=\box58
 \colbreak@box=\box59
-\mc@col@check@num=\count276
+\mc@col@check@num=\count277
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip265
-\multirow@cntb=\count277
-\multirow@dima=\skip266
+\multirow@colwidth=\skip268
+\multirow@cntb=\count278
+\multirow@dima=\skip269
 \bigstrutjot=\dimen190
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\backref.sty"
@@ -1196,22 +1197,22 @@ Package: backref 2016/05/21 v1.39 Bibliographical back referencing
 Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\abntex2\abntex2abrev.sty")
-\minimumbiblabelwidth=\skip267
-\ABCIauxlen=\skip268
-\c@ABCIaux=\count278
-\c@ABCImax=\count279
+\minimumbiblabelwidth=\skip270
+\ABCIauxlen=\skip271
+\c@ABCIaux=\count279
+\c@ABCImax=\count280
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
 Package: relsize 2003/07/04 ver 3.1
 )
-\biblabelsep=\skip269
+\biblabelsep=\skip272
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks37
+\ABCItoken=\toks34
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip270
+\@mathmargin=\skip273
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -1219,7 +1220,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks38
+\@emptytoks=\toks35
 \ex@=\dimen191
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
@@ -1229,13 +1230,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count280
+\inf@bad=\count281
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count281
-\leftroot@=\count282
+\uproot@=\count282
+\leftroot@=\count283
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count283
-\DOTSCASE@=\count284
+\classnum@=\count284
+\DOTSCASE@=\count285
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -1244,26 +1245,26 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen193
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count285
-\c@MaxMatrixCols=\count286
+\macc@depth=\count286
+\c@MaxMatrixCols=\count287
 \dotsspace@=\muskip11
-\c@parentequation=\count287
-\dspbrk@lvl=\count288
-\tag@help=\toks39
-\row@=\count289
-\column@=\count290
-\maxfields@=\count291
-\andhelp@=\toks40
+\c@parentequation=\count288
+\dspbrk@lvl=\count289
+\tag@help=\toks36
+\row@=\count290
+\column@=\count291
+\maxfields@=\count292
+\andhelp@=\toks37
 \eqnshift@=\dimen194
 \alignsep@=\dimen256
 \tagshift@=\dimen257
 \tagwidth@=\dimen258
 \totwidth@=\dimen259
 \lineht@=\dimen260
-\@envbody=\toks41
-\multlinegap=\skip271
-\multlinetaggap=\skip272
-\mathdisplay@stack=\toks42
+\@envbody=\toks38
+\multlinegap=\skip274
+\multlinetaggap=\skip275
+\mathdisplay@stack=\toks39
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -1316,7 +1317,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count292
+\c@section@level=\count293
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1324,22 +1325,276 @@ LaTeX Info: Redefining \nameref on input line 113.
 LaTeX Info: Redefining \ref on input line 113.
 LaTeX Info: Redefining \pageref on input line 113.
 LaTeX Info: Redefining \nameref on input line 113.
-! I can't write on file `"Almight relatory 7.pdf"'.
-Please type another file name for output
-! Emergency stop.
-<to be read again> 
-                   \edef 
-l.113 \begin{document}
-                      
-*** (job aborted, file error in nonstop mode)
+LaTeX Info: Redefining \degres on input line 113.
+LaTeX Info: Redefining \dots on input line 113.
+LaTeX Info: Redefining \up on input line 113.
+\myptabbox=\box63
+\myptabboxwidth=\skip276
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count294
+\scratchdimen=\dimen261
+\scratchbox=\box64
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen262
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks41
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
- 
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Info: Redefining \microtypecontext on input line 113.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \celsius on input line 113.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 113
+.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 113.
+Package gensymb Info: Using \Omega for \ohm on input line 113.
+
+Package gensymb Warning: Not defining \micro.
+
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 119.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 122.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 122.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 122
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 122
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 122.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 122.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 122.
+LaTeX Font Info:    Try loading font information for U+msa on input line 122.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 122.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.122 
+       [1
+
+
+
+]
+\openout2 = `Resumo.aux'.
+
+ (Resumo.tex [2
+
+])
+\openout2 = `Abstract.aux'.
+
+ (Abstract.tex [3
+
+
+
+]) ("Almight relatory 7.toc")
+[4
+
+
+]
+\openout2 = `Introducao.aux'.
+
+ (Introducao.tex
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 7.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 7.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 9.
+
+
+Package hyperref Warning: Suppressing empty link on input line 9.
+
+) [5
+
+
+
+]
+\openout2 = `Procedimentos.aux'.
+
+ (Procedimentos.tex
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 14.
+See the caption package documentation for explanation.
+
+<Imagens/Figura1.jpg, id=57, 679.78969pt x 453.94594pt>
+File: Imagens/Figura1.jpg Graphic file (type jpg)
+
+<use Imagens/Figura1.jpg>
+Package pdftex.def Info: Imagens/Figura1.jpg used on input line 14.
+(pdftex.def)             Requested size: 227.5pt x 151.91524pt.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 20.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 20.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 20.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 46.
+See the caption package documentation for explanation.
+
+[6
+
+
+
+ <./Imagens/Figura1.jpg>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 92.
+See the caption package documentation for explanation.
+
+) [7]
+\openout2 = `Conclusao.aux'.
+
+ (Conclusao.tex) [8
+
+
+
+] ("Almight relatory 7.bbl" ("Almight relatory 7.brf")
+\tf@brf=\write5
+\openout5 = `"Almight relatory 7.brf"'.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 3.
+
+bibitemlist
+) [9
+
+
+]
+\tf@toc=\write6
+\openout6 = `"Almight relatory 7.toc"'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
+ ("Almight relatory 7.aux" (Resumo.aux) (Abstract.aux) (Introducao.aux)
+(Procedimentos.aux) (Conclusao.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package rerunfilecheck Info: File `"Almight relatory 7".brf' has not changed.
+(rerunfilecheck)             Checksum: 3767030FBFC25B643AF8BB0EC28E570D;40.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
+ ) 
 Here is how much of TeX's memory you used:
- 16080 strings out of 493323
- 238972 string characters out of 3139034
- 516080 words of memory out of 3000000
- 19396 multiletter control sequences out of 15000+200000
- 8001 words of font info for 18 fonts, out of 3000000 for 9000
+ 17190 strings out of 493328
+ 257454 string characters out of 3139119
+ 538946 words of memory out of 3000000
+ 20275 multiletter control sequences out of 15000+200000
+ 78796 words of font info for 100 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,1n,92p,274b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 55i,12n,92p,907b,578s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy
+.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbol
+s/msam10.pfb>
+Output written on "Almight relatory 7.pdf" (10 pages, 316422 bytes).
+PDF statistics:
+ 174 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 24646 words of extra memory for PDF output out of 24883 (max. 10000000)
+
