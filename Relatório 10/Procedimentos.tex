@@ -82,10 +82,10 @@
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
 		\noindent
-		%\captionof{table}{Valores $ CC $ teóricos e práticos}
+		\captionof{table}{Valores obtidos dos circuitos}
 		\begin{tabular}{ll|c|c|l|}
 			\cline{3-5}
-			&     & Circuito $ 1 $ & Circuito $ 1 $ & Circuito $ 2 $ \\ \hline
+			&     & Circuito $ 1 $ & Circuito $ 2 $ & Circuito $ 3 $ \\ \hline
 			\multicolumn{1}{|c|}{\multirow{3}{*}{Osciloscópio}} & $V_e$ $ (V_{pp}) $   &            &            &            \\ \cline{2-5} 
 			\multicolumn{1}{|c|}{}                              & $V_s$ $ (V_{pp}) $   &            &            &            \\ \cline{2-5} 
 			\multicolumn{1}{|c|}{}                              & $A_V$ $ (V_s/V_e) $   &            &            &            \\ \hline
@@ -107,7 +107,7 @@ Ao montar os circuitos \ref{Figura1},\ref{Figura2} e \ref{Figura3} no software M
 		\captionof{table}{Valores obtidos dos circuitos}
 		\begin{tabular}{ll|c|c|l|}
 			\cline{3-5}
-			&     & Circuito $ 1 $ & Circuito $ 1 $ & Circuito $ 2 $ \\ \hline
+			&     & Circuito $ 1 $ & Circuito $ 2 $ & Circuito $ 3 $ \\ \hline
 			\multicolumn{1}{|c|}{\multirow{3}{*}{Osciloscópio}} & $V_e$ $ (V_{pp}) $   &            &            &            \\ \cline{2-5} 
 			\multicolumn{1}{|c|}{}                              & $V_s$ $ (V_{pp}) $   &            &            &            \\ \cline{2-5} 
 			\multicolumn{1}{|c|}{}                              & $A_V$ $ (V_s/V_e) $   &            &            &            \\ \hline
@@ -118,4 +118,38 @@ Ao montar os circuitos \ref{Figura1},\ref{Figura2} e \ref{Figura3} no software M
 		\legend{Fonte: Produzido pelos autores}
 		\label{Tabela2}
 \end{minipage}}
+
+\subsection{Amplificador $ 1^\circ $ estágio}
+
+
+
+\centerline{\begin{minipage}[c]{\textwidth}
+		\centering
+		\noindent
+		\captionof{figure}{Imagem do osciloscópio do Circuito \ref{Figura1}}
+		\includegraphics[width=0.9\textwidth]{Imagens/Oscilloscope_Circuito1.jpg}
+		\legend{Fonte: Produzido pelos autores}
+		\label{Oscilloscope_Circuito1}
+\end{minipage}}
+
+Para uma melhor visualização, a escala dos dois gráficos estão diferentes.
+
+\centerline{\begin{minipage}[c]{\textwidth}
+		\centering
+		\noindent
+		\captionof{table}{Valores obtidos do circuito \ref{Figura1}}
+	\begin{tabular}{ll|c|}
+		\cline{3-3}
+		&     & Circuito 1 \\ \hline
+		\multicolumn{1}{|c|}{\multirow{3}{*}{Osciloscópio}} &  $V_e$ $ (V_{pp}) $    &   $ 2mV $         \\ \cline{2-3} 
+		\multicolumn{1}{|c|}{}                              & $V_s$ $ (V_{pp}) $   &       $ 55,1mV $     \\ \cline{2-3} 
+		\multicolumn{1}{|c|}{}                              &  $A_V$ $ (V_s/V_e) $   &      $ 27,55 $      \\ \hline
+		\multicolumn{1}{|l|}{\multirow{3}{*}{Bode Plotter}} & $A_V$ em frequências médias $ (dB) $   &       $ 28,8 $     \\ \cline{2-3} 
+		\multicolumn{1}{|l|}{}                              & frequência $ 1 $ a $ (-3dB) $ &            \\ \cline{2-3} 
+		\multicolumn{1}{|l|}{}                              & frequência $ 2 $ a $ (-3dB) $ &            \\ \hline
+	\end{tabular}
+		\legend{Fonte: Produzido pelos autores}
+		\label{Tab_Circuito1}
+\end{minipage}}
+
 

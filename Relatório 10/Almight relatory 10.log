@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  28 AUG 2017 08:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  28 AUG 2017 08:57
 entering extended mode
 **"./Almight relatory 10.tex"
 ("Almight relatory 10.tex"
@@ -1509,7 +1509,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 28.
 See the caption package documentation for explanation.
 
-<Imagens/Figura1.jpg, id=74, 862.72313pt x 465.99094pt>
+<Imagens/Figura1.jpg, id=76, 862.72313pt x 465.99094pt>
 File: Imagens/Figura1.jpg Graphic file (type jpg)
 <use Imagens/Figura1.jpg>
 Package pdftex.def Info: Imagens/Figura1.jpg  used on input line 28. on input l
@@ -1537,7 +1537,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 47.
 See the caption package documentation for explanation.
 
-<Imagens/Figura2.jpg, id=77, 858.95906pt x 484.81125pt>
+<Imagens/Figura2.jpg, id=79, 858.95906pt x 484.81125pt>
 File: Imagens/Figura2.jpg Graphic file (type jpg)
 <use Imagens/Figura2.jpg>
 Package pdftex.def Info: Imagens/Figura2.jpg  used on input line 47. on input l
@@ -1550,27 +1550,67 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 65.
 See the caption package documentation for explanation.
 
-<Imagens/Figura3.jpg, id=93, 871.75688pt x 453.19313pt>
+<Imagens/Figura3.jpg, id=95, 871.75688pt x 453.19313pt>
 File: Imagens/Figura3.jpg Graphic file (type jpg)
 <use Imagens/Figura3.jpg>
 Package pdftex.def Info: Imagens/Figura3.jpg  used on input line 65. on input l
 ine 65.
 Package pdftex.def Info: Requested size: 409.49722pt x 212.87633pt on input lin
 e 65.
-[8 <./Imagens/Figura2.jpg>] [9 <./Imagens/Figura3.jpg>] [10]
+[8 <./Imagens/Figura2.jpg>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 98.
+See the caption package documentation for explanation.
+
+[9 <./Imagens/Figura3.jpg>] [10]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 120.
 See the caption package documentation for explanation.
 
-) [11]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 122.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 122.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\circ' on input line 122.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 122.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 133.
+See the caption package documentation for explanation.
+
+<Imagens/Oscilloscope_Circuito1.jpg, id=134, 579.66562pt x 402.75468pt>
+File: Imagens/Oscilloscope_Circuito1.jpg Graphic file (type jpg)
+<use Imagens/Oscilloscope_Circuito1.jpg>
+Package pdftex.def Info: Imagens/Oscilloscope_Circuito1.jpg  used on input line
+ 133. on input line 133.
+Package pdftex.def Info: Requested size: 409.49722pt x 284.51976pt on input lin
+e 133.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 153.
+See the caption package documentation for explanation.
+
+) [11 <./Imagens/Oscilloscope_Circuito1.jpg>] [12]
 \openout2 = `Conclusao.aux'.
 
- (Conclusao.tex) [12
+ (Conclusao.tex) [13
 
 
 
-] ("Almight relatory 10.bbl" ("Almight relatory 10.brf")
+]
+("Almight relatory 10.bbl" ("Almight relatory 10.brf")
 \tf@brf=\write5
 \openout5 = `"Almight relatory 10.brf"'.
 
@@ -1583,7 +1623,7 @@ bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [13
+) [14
 
 
 ]
@@ -1601,10 +1641,10 @@ Package rerunfilecheck Info: File `"Almight relatory 10".brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 17179 strings out of 493323
- 257139 string characters out of 3139034
- 535959 words of memory out of 3000000
- 20251 multiletter control sequences out of 15000+200000
+ 17192 strings out of 493323
+ 257416 string characters out of 3139034
+ 538185 words of memory out of 3000000
+ 20258 multiletter control sequences out of 15000+200000
  75635 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,92p,583b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1622,9 +1662,9 @@ X 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmsy8.pfb>
-Output written on "Almight relatory 10.pdf" (14 pages, 401438 bytes).
+Output written on "Almight relatory 10.pdf" (15 pages, 514462 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 25736 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 25749 words of extra memory for PDF output out of 29859 (max. 10000000)
 
