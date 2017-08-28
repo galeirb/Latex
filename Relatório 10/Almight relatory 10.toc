@@ -6,10 +6,15 @@
 \contentsline {chapter}{Introdu\c {c}\~{a}o}{5}{chapter*.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Desenvolvimento}}{6}{chapter.1}
-\contentsline {section}{\numberline {1.1}Procedimentos}{6}{section.1.1}
-\contentsline {section}{\numberline {1.2}Resultados}{8}{section.1.2}
+\contentsline {section}{\numberline {1.1}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{6}{section.1.1}
+\contentsline {section}{\numberline {1.2}Procedimentos}{7}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Amplificador $ 1^\circ $ est\IeC {\'a}gio}{7}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Amplificador $ 2^\circ $ est\IeC {\'a}gio}{8}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Amplificador com dois est\IeC {\'a}gios}{9}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Analise}{9}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Resultados}{11}{section.1.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Conclus\~{a}o}}{9}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Conclus\~{a}o}}{12}{chapter.2}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{10}{section*.7}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{13}{section*.7}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  27 AUG 2017 23:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  28 AUG 2017 01:19
 entering extended mode
 **"./Almight relatory 10.tex"
 ("Almight relatory 10.tex"
@@ -1476,75 +1476,97 @@ l.122
 ]
 \openout2 = `Procedimentos.aux'.
 
- (Procedimentos.tex
+ (Procedimentos.tex [6
+
+
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 19.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 19.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 19.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 19.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 19.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\circ' on input line 19.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 19.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 15.
+(caption)                particular \caption on input line 28.
 See the caption package documentation for explanation.
 
-<Imagens/Figura1.jpg, id=52, 885.3075pt x 416.30531pt>
+<Imagens/Figura1.jpg, id=74, 862.72313pt x 465.99094pt>
 File: Imagens/Figura1.jpg Graphic file (type jpg)
 <use Imagens/Figura1.jpg>
-Package pdftex.def Info: Imagens/Figura1.jpg  used on input line 15. on input l
-ine 15.
-Package pdftex.def Info: Requested size: 409.49722pt x 192.5636pt on input line
- 15.
+Package pdftex.def Info: Imagens/Figura1.jpg  used on input line 28. on input l
+ine 28.
+Package pdftex.def Info: Requested size: 409.49722pt x 221.18445pt on input lin
+e 28.
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 45.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 64.
-See the caption package documentation for explanation.
-
-[6
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 38.
 
 
-
- <./Imagens/Figura1.jpg>]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 95.
-See the caption package documentation for explanation.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 38.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 95.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\circ' on input line 38.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 95.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 105.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 105.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 105.
-
-[7]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 150.
-See the caption package documentation for explanation.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 38.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 175.
+(caption)                particular \caption on input line 47.
 See the caption package documentation for explanation.
 
+<Imagens/Figura2.jpg, id=77, 858.95906pt x 484.81125pt>
+File: Imagens/Figura2.jpg Graphic file (type jpg)
+<use Imagens/Figura2.jpg>
+Package pdftex.def Info: Imagens/Figura2.jpg  used on input line 47. on input l
+ine 47.
+Package pdftex.def Info: Requested size: 409.49722pt x 231.13106pt on input lin
+e 47.
+[7 <./Imagens/Figura1.jpg>]
 
-LaTeX Warning: Command \' invalid in math mode on input line 175.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 65.
+See the caption package documentation for explanation.
 
+<Imagens/Figura3.jpg, id=93, 871.75688pt x 453.19313pt>
+File: Imagens/Figura3.jpg Graphic file (type jpg)
+<use Imagens/Figura3.jpg>
+Package pdftex.def Info: Imagens/Figura3.jpg  used on input line 65. on input l
+ine 65.
+Package pdftex.def Info: Requested size: 409.49722pt x 212.87633pt on input lin
+e 65.
+[8 <./Imagens/Figura2.jpg>] [9 <./Imagens/Figura3.jpg>] [10]
 
-LaTeX Warning: Command \' invalid in math mode on input line 175.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 120.
+See the caption package documentation for explanation.
 
-) [8]
+) [11]
 \openout2 = `Conclusao.aux'.
 
- (Conclusao.tex) [9
+ (Conclusao.tex) [12
 
 
 
@@ -1561,7 +1583,7 @@ bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [10
+) [13
 
 
 ]
@@ -1579,28 +1601,30 @@ Package rerunfilecheck Info: File `"Almight relatory 10".brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 17083 strings out of 493323
- 255777 string characters out of 3139034
- 538044 words of memory out of 3000000
- 20197 multiletter control sequences out of 15000+200000
- 58423 words of font info for 74 fonts, out of 3000000 for 9000
+ 17179 strings out of 493323
+ 257139 string characters out of 3139034
+ 535959 words of memory out of 3000000
+ 20251 multiletter control sequences out of 15000+200000
+ 75635 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,92p,472b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,92p,583b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
-vips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
 .enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "Almight relatory 10.pdf" (11 pages, 288822 bytes).
+/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmsy8.pfb>
+Output written on "Almight relatory 10.pdf" (14 pages, 401438 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 19030 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 25736 words of extra memory for PDF output out of 29859 (max. 10000000)
 

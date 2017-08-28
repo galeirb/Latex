@@ -3,55 +3,89 @@
 \setcounter{totalnumber}{5}
 
 \chapter{Desenvolvimento}
+\section{Fundamentação Teórica}
+\begin{enumerate}
+	\item Diagrama de bode
+	\item Resposta em frequência
+	\item Explicar um filtro passa baixa, passa alta, rejeita faixa e passa faixa (um exemplo prático desta aplicação) \ldots
+\end{enumerate}
+
+
+
+\newpage
 \section{Procedimentos}
+
+
+\subsection{Amplificador $ 1^\circ $ estágio}
 
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
 		\noindent
-		\captionof{figure}{Transistor bipolar atuando como fonte de corrente}
+		\captionof{figure}{Circuito elétrico do $ 1^\circ $ estágio do amplificador}
 		\includegraphics[width=0.9\textwidth]{Imagens/Figura1.jpg}
 		\legend{Fonte: Produzido pelos autores}
 		\label{Figura1}
 \end{minipage}}
-
-
-\begin{enumerate}
-	\item Monte somente o circuito de polarização do circuito da Figura \ref{Figura1}. Com o auxílio do multímetro, meça as variáveis e complete a Tabela \ref{Tabela1}. Caso o seu circuito de polarização esteja operando corretamente, passe para o próximo item desta experiência. Caso  contrário,  descubra  o  que  há  de  errado  com  a  sua  montagem  e  refaça  as  suas medidas $ CC $.
 	
-	\centerline{\begin{minipage}[c]{\textwidth}
-			\centering
-			\noindent
-			\captionof{table}{Valores $ CC $ teóricos e práticos}
-			\begin{tabular}{cccccc}
-				\toprule
-				Variável & Circuito $ 1 $ & Circuito $ 2 $ & Circuito $ 3 $ (\%) \\
-				\midrule \midrule
-				$V_e$ $ (V_{pp}) $ &   &  &  \\
-				\midrule
-				$V_s$ $ (V_{pp}) $ &   &  &  \\
-				\midrule
-				$A_V$ $ (V_s/V_e) $ &   &  &  \\
-				\midrule
-				$A_V$ em frequências médias $ (dB) $ &   &  &  \\
-				\midrule
-				frequência $ 1 $ a $ (-3dB) $ &   &  &  \\
-				\midrule
-				frequência $ 2 $ a $ (-3dB) $ &   &  &  \\
-				\midrule
-				\bottomrule
-			\end{tabular}%
-			\legend{Fonte: Produzido pelos autores}
-			\label{TabelaExemplo}
-	\end{minipage}}
+\begin{enumerate}
+	\item Dado o circuito da figura \ref{Figura1}, aplicar o gerador de funções com uma tensão $ 1,0mV $ e frequência de $ 1kHz $;
+	\item Medir o ganho com o osciloscópio. Para tanto medir a tensão de saída $ V_s $ e de entrada $ V_e $.
+	\item Usar o Bode Plotter (amplitude) e medir as frequências de corte e o ganho da banda passante em $ dB $ $ A $ $ db = 20 \log (V_s/V_e) $;
+	\item Usar o Bode Plotter (fase) e medir os ângulos nas frequências importantes; Anotar todos os dados obtidos na tabela \ref{Tabela1}.
+\end{enumerate}
 
+
+\subsection{Amplificador $ 2^\circ $ estágio}
 
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
 		\noindent
-		\captionof{table}{Valores $ CC $ teóricos e práticos}
+		\captionof{figure}{Circuito elétrico do $ 2^\circ $ estágio do amplificador}
+		\includegraphics[width=0.9\textwidth]{Imagens/Figura2.jpg}
+		\legend{Fonte: Produzido pelos autores}
+		\label{Figura2}
+\end{minipage}}
+
+\begin{enumerate}
+	\item Dado o circuito figura \ref{Figura2}, aplicar o gerador de funções com uma tensão $ 1,0mV $ e frequência de $ 1kHz $;
+	\item Medir o ganho com o osciloscópio. Para tanto medir a tensão de saída $ V_s $ e de entrada $ V_e $.
+	\item Usar o Bode Plotter (amplitude) e medir as frequências de corte e o ganho da banda passante em $ dB $;
+	\item Usar o Bode Plotter (fase) e medir os ângulos nas frequências importantes; Anotar todos os dados obtidos na tabela \ref{Tabela1}.
+\end{enumerate}
+
+\subsection{Amplificador com dois estágios}
+
+\centerline{\begin{minipage}[c]{\textwidth}
+		\centering
+		\noindent
+		\captionof{figure}{Circuito elétrico do amplificador com dois estágios}
+		\includegraphics[width=0.9\textwidth]{Imagens/Figura3.jpg}
+		\legend{Fonte: Produzido pelos autores}
+		\label{Figura3}
+\end{minipage}}
+
+\begin{enumerate}
+	\item Dado o circuito figura \ref{Figura3}, aplicar o gerador de funções com uma tensão $ 1,0mV $ e frequência de $ 1kHz $;
+	\item Medir o ganho com o osciloscópio. Para tanto medir a tensão de saída $ V_s $ e de entrada $ V_e $.
+	\item Usar o Bode Plotter (amplitude) e medir as frequências de corte e o ganho da banda passante em $ dB $;
+\end{enumerate}
+
+\subsection{Analise}
+\begin{enumerate}
+	\item Analise os resultados apontados na Tabela \ref{Tabela2} e explique:
+	\begin{enumerate}
+		\item Por que a frequência de corte inferior $ (fr_1) $ para o circuito \ref{Figura1} é maior que para o circuito \ref{Figura2}?
+		\item Por que o ganho, para a faixa de frequência médias, do circuito \ref{Figura1} é bem maior do que o circuito \ref{Figura2}?
+	\end{enumerate}
+\end{enumerate}
+
+\centerline{\begin{minipage}[c]{\textwidth}
+		\centering
+		\noindent
+		%\captionof{table}{Valores $ CC $ teóricos e práticos}
 		\begin{tabular}{ll|c|c|l|}
 			\cline{3-5}
-			&     & Circuito 1 & Circuito 1 & Circuito 2 \\ \hline
+			&     & Circuito $ 1 $ & Circuito $ 1 $ & Circuito $ 2 $ \\ \hline
 			\multicolumn{1}{|c|}{\multirow{3}{*}{Osciloscópio}} & $V_e$ $ (V_{pp}) $   &            &            &            \\ \cline{2-5} 
 			\multicolumn{1}{|c|}{}                              & $V_s$ $ (V_{pp}) $   &            &            &            \\ \cline{2-5} 
 			\multicolumn{1}{|c|}{}                              & $A_V$ $ (V_s/V_e) $   &            &            &            \\ \hline
@@ -63,113 +97,25 @@
 		\label{Tabela1}
 \end{minipage}}
 
-
-
-
-	
-	\item Monte o circuito completo da Figura \ref{Figura1}. Com  o  auxílio  do  osciloscópio,  meça  as variáveis solicitadas e complete a Tabela \ref{Tabela2}. 
-	
-	
-	\centerline{\begin{minipage}[c]{\textwidth}
-			\centering
-			\noindent
-			\captionof{table}{Valores $ CA $ teóricos e práticos}
-			\begin{tabular}{cccccc}
-				\toprule
-				Variável & Valor teórico & Valor prático & Erro (\%) \\
-				\midrule \midrule
-				$V_{ent}$ &  &  &  \\
-				\midrule
-				$V_{saída}$ (sem carga) &  &  &  \\
-				\midrule
-				$V_{saída}$ (com carga) &  &  &  \\
-				\midrule
-				$A_V$ &  &  &  \\
-				\midrule
-				$ A_{VC} $ &  &  &  \\
-				\midrule
-				\bottomrule
-			\end{tabular}%
-			\legend{Fonte: Produzido pelos autores}
-			\label{Tabela2}
-	\end{minipage}}
-	
-	\item Utilize o canal $ 1 $ do osciloscópio para verificar o sinal de entrada do amplificador de tensão e o canal $ 2 $, para o sinal de saída do circuito. Tais formas de onda estão invertidas uma em relação à outra? Por quê?
-	
-	\item Com o osciloscópio em $ DC $, meça o sinal no coletor do transistor bipolar. Perceba a existência de um nível $ CC $ e de um sinal $ CA $ nesse ponto. Em seguida, verifique o sinal na  carga,  após  o  capacitor  de  $ 1\mu F $.  Note  que  há  apenas  um  sinal  $ CA $.  Por  que  isso ocorre? 
-	
-	\item Com o osciloscópio em $ DC $, meça o sinal no emissor do transistor bipolar. Perceba a existência de um nível $ CC $. Por que isso ocorre? 
-	
-	\item Calcule os erros das suas medidas e complete as Tabelas \ref{Tabela1} e \ref{Tabela2}. Considere que o erro é dado por 
-
-$$\%\; de\; erro = \frac{valor \; prático - valor \; teórico}{valor \; teórico} \times 100$$
-
-	\item Analise os seus resultados (valores obtidos, erros, possíveis fonte de erros, ...)
-
-	
-	
-\end{enumerate}
-
+\newpage
 \section{Resultados}
-
-
-\centerline{\begin{minipage}[c]{\textwidth}
-		\centering
-		\noindent
-		\captionof{table}{Valores $ CC $ teóricos e práticos}
-		\begin{tabular}{cccccc}
-			\toprule
-			Variável & Valor teórico & Valor prático & Erro (\%) \\
-			\midrule \midrule
-			$V_C$ &  $ 7,25V $ & $ 7,18V $ & $1,5 \% $ \\
-			\midrule
-			$V_B$ &  $ 2,69V $ & $ 0,67V $ & $1,5 \% $ \\
-			\midrule
-			$V_E$ &  $ 1,992V $ & $ 0,015V $ & $1,5 \% $ \\
-			\midrule
-			$V_{CE}$ &  $ 5,26V $ & $ 5,32 V $ & $1,5 \% $ \\
-			\midrule
-			$V_{BE}$ &  $ 0,7V $ & $ 5,32 V $ & $1,5 \% $ \\
-			\midrule
-			$V_{BC}$ &  $ -20,05V $ & $ 5,32 V $ & $1,5 \% $ \\
-			\midrule
-			$I_{C}$ &  $ 1,98mA$ & $ 6,87 mA $ & $ 699 \% $ \\
-			\midrule
-			$I_{B}$ &  $ 6,66\mu A $ & $ 34,44\mu A $ & $ 1,55\% $ \\
-			\midrule
-			$I_{E}$ &  $ 1,992mA$ & $ 6,87 mA $ & $ 699 \% $ \\
-			\midrule
-			$\beta_{CC}$ & $ 298 $ & $ 298 $ & $ 87,68 \% $ \\
-			\midrule
-			$P_D$ &  $ 10,41 mW $ & $ 36,54mW $ & $ \% $ \\
-			\midrule
-			\bottomrule
-		\end{tabular}%
-		\legend{Fonte: Produzido pelos autores}
-		\label{Tabela3}
-\end{minipage}}
-
+Ao montar os circuitos \ref{Figura1},\ref{Figura2} e \ref{Figura3} no software MULTISIM, conseguimos obter os seguinte dados preenchidos na Tabela \ref{Tabela2}:	
 
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
 		\noindent
-		\captionof{table}{Valores $ CA $ teóricos e práticos}
-		\begin{tabular}{cccccc}
-			\toprule
-			Variável & Valor teórico & Valor prático & Erro (\%) \\
-			\midrule \midrule
-			$V_{ent}$ &  $ 20mA $ & $ 19,7 mA $ & $1,5 \% $ \\
-			\midrule
-			$V_{saída}$ (sem carga) &  $ 1,027mA$ & $ 1,066 mA $ & $ 3,8 \% $ \\
-			\midrule
-			$V_{saída}$ (com carga) &  $ 20mA $ & $ 19,69 mA $ & $ 1,55 \% $ \\
-			\midrule
-			$A_V$ &  $ 2,48 V $ & $ 2,449 V $ &  $ 1,25 \% $ \\
-			\midrule
-			$ A_{VC} $ & $ 18,47 $ & $ 18,47 $ & $ 0\% $ \\
-			\midrule
-			\bottomrule
-		\end{tabular}%
+		\captionof{table}{Valores obtidos dos circuitos}
+		\begin{tabular}{ll|c|c|l|}
+			\cline{3-5}
+			&     & Circuito $ 1 $ & Circuito $ 1 $ & Circuito $ 2 $ \\ \hline
+			\multicolumn{1}{|c|}{\multirow{3}{*}{Osciloscópio}} & $V_e$ $ (V_{pp}) $   &            &            &            \\ \cline{2-5} 
+			\multicolumn{1}{|c|}{}                              & $V_s$ $ (V_{pp}) $   &            &            &            \\ \cline{2-5} 
+			\multicolumn{1}{|c|}{}                              & $A_V$ $ (V_s/V_e) $   &            &            &            \\ \hline
+			\multicolumn{1}{|l|}{\multirow{3}{*}{Bode Plotter}} & $A_V$ em frequências médias $ (dB) $   &            &            &            \\ \cline{2-5} 
+			\multicolumn{1}{|l|}{}                              & frequência $ 1 $ a $ (-3dB) $ &            &            &            \\ \cline{2-5} 
+			\multicolumn{1}{|l|}{}                              & frequência $ 2 $ a $ (-3dB) $ &            &            &            \\ \hline
+		\end{tabular}
 		\legend{Fonte: Produzido pelos autores}
-		\label{Tabela4}
+		\label{Tabela2}
 \end{minipage}}
+
