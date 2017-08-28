@@ -24,35 +24,48 @@
 			\captionof{table}{Valores $ CC $ teóricos e práticos}
 			\begin{tabular}{cccccc}
 				\toprule
-				Variável & Valor teórico & Valor prático & Erro (\%) \\
+				Variável & Circuito $ 1 $ & Circuito $ 2 $ & Circuito $ 3 $ (\%) \\
 				\midrule \midrule
-				$V_C$ &   &  &  \\
+				$V_e$ $ (V_{pp}) $ &   &  &  \\
 				\midrule
-				$V_B$ &   &  &  \\
+				$V_s$ $ (V_{pp}) $ &   &  &  \\
 				\midrule
-				$V_E$ &   &  &  \\
+				$A_V$ $ (V_s/V_e) $ &   &  &  \\
 				\midrule
-				$V_{CE}$ &   &  &  \\
+				$A_V$ em frequências médias $ (dB) $ &   &  &  \\
 				\midrule
-				$V_{BE}$ &   &  &  \\
+				frequência $ 1 $ a $ (-3dB) $ &   &  &  \\
 				\midrule
-				$V_{BC}$ &   &  &  \\
-				\midrule
-				$I_{C}$ &   &  &  \\
-				\midrule
-				$I_{B}$ &   &  &  \\
-				\midrule
-				$I_{E}$ &   &  &  \\
-				\midrule
-				$\beta_{CC}$ &   &  &  \\
-				\midrule
-				$P_D$ &   &  &  \\
+				frequência $ 2 $ a $ (-3dB) $ &   &  &  \\
 				\midrule
 				\bottomrule
 			\end{tabular}%
 			\legend{Fonte: Produzido pelos autores}
-			\label{Tabela1}
+			\label{TabelaExemplo}
 	\end{minipage}}
+
+
+\centerline{\begin{minipage}[c]{\textwidth}
+		\centering
+		\noindent
+		\captionof{table}{Valores $ CC $ teóricos e práticos}
+		\begin{tabular}{ll|c|c|l|}
+			\cline{3-5}
+			&     & Circuito 1 & Circuito 1 & Circuito 2 \\ \hline
+			\multicolumn{1}{|c|}{\multirow{3}{*}{Osciloscópio}} & $V_e$ $ (V_{pp}) $   &            &            &            \\ \cline{2-5} 
+			\multicolumn{1}{|c|}{}                              & $V_s$ $ (V_{pp}) $   &            &            &            \\ \cline{2-5} 
+			\multicolumn{1}{|c|}{}                              & $A_V$ $ (V_s/V_e) $   &            &            &            \\ \hline
+			\multicolumn{1}{|l|}{\multirow{3}{*}{Bode Plotter}} & $A_V$ em frequências médias $ (dB) $   &            &            &            \\ \cline{2-5} 
+			\multicolumn{1}{|l|}{}                              & frequência $ 1 $ a $ (-3dB) $ &            &            &            \\ \cline{2-5} 
+			\multicolumn{1}{|l|}{}                              & frequência $ 2 $ a $ (-3dB) $ &            &            &            \\ \hline
+		\end{tabular}
+		\legend{Fonte: Produzido pelos autores}
+		\label{Tabela1}
+\end{minipage}}
+
+
+
+
 	
 	\item Monte o circuito completo da Figura \ref{Figura1}. Com  o  auxílio  do  osciloscópio,  meça  as variáveis solicitadas e complete a Tabela \ref{Tabela2}. 
 	

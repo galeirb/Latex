@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  25 AUG 2017 09:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  27 AUG 2017 23:57
 entering extended mode
 **"./Almight relatory 10.tex"
 ("Almight relatory 10.tex"
@@ -1491,7 +1491,12 @@ Package pdftex.def Info: Requested size: 409.49722pt x 192.5636pt on input line
  15.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 55.
+(caption)                particular \caption on input line 45.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 64.
 See the caption package documentation for explanation.
 
 [6
@@ -1501,50 +1506,49 @@ See the caption package documentation for explanation.
  <./Imagens/Figura1.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 82.
+(caption)                particular \caption on input line 95.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 82.
+LaTeX Warning: Command \' invalid in math mode on input line 95.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 82.
+LaTeX Warning: Command \' invalid in math mode on input line 95.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 105.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 105.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 105.
 
 [7]
 
-LaTeX Warning: Command \' invalid in math mode on input line 92.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 92.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 92.
-
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 137.
+(caption)                particular \caption on input line 150.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 162.
+(caption)                particular \caption on input line 175.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 162.
+LaTeX Warning: Command \' invalid in math mode on input line 175.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 162.
+LaTeX Warning: Command \' invalid in math mode on input line 175.
 
-) [8] [9]
+) [8]
 \openout2 = `Conclusao.aux'.
 
- (Conclusao.tex) [10
+ (Conclusao.tex) [9
 
 
 
-] ("Almight relatory 10.bbl"
-("Almight relatory 10.brf")
+] ("Almight relatory 10.bbl" ("Almight relatory 10.brf")
 \tf@brf=\write5
 \openout5 = `"Almight relatory 10.brf"'.
 
@@ -1557,7 +1561,7 @@ bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [11
+) [10
 
 
 ]
@@ -1575,16 +1579,16 @@ Package rerunfilecheck Info: File `"Almight relatory 10".brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 17082 strings out of 493323
- 255760 string characters out of 3139034
- 537950 words of memory out of 3000000
- 20196 multiletter control sequences out of 15000+200000
+ 17083 strings out of 493323
+ 255777 string characters out of 3139034
+ 538044 words of memory out of 3000000
+ 20197 multiletter control sequences out of 15000+200000
  58423 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,92p,472b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
+vips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
 .enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
@@ -1594,9 +1598,9 @@ X 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "Almight relatory 10.pdf" (12 pages, 287857 bytes).
+Output written on "Almight relatory 10.pdf" (11 pages, 288822 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)
  19030 words of extra memory for PDF output out of 20736 (max. 10000000)
 
