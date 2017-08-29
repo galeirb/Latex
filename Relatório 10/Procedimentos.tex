@@ -74,8 +74,8 @@
 \begin{enumerate}
 	\item Analise os resultados apontados na Tabela \ref{Tabela2} e explique:
 	\begin{enumerate}
-		\item Por que a frequência de corte inferior $ (fr_1) $ para o circuito \ref{Figura1} é maior que para o circuito \ref{Figura2}?
-		\item Por que o ganho, para a faixa de frequência médias, do circuito \ref{Figura1} é bem maior do que o circuito \ref{Figura2}?
+		\item Por que a frequência de corte inferior $ (fr_1) $ para o circuito da figura \ref{Figura1} é maior que para o circuito da figura \ref{Figura2}?
+		\item Por que o ganho, para a faixa de frequência médias, do circuito da figura \ref{Figura1} é bem maior do que o circuito da figura \ref{Figura2}?
 	\end{enumerate}
 \end{enumerate}
 
@@ -99,29 +99,16 @@
 
 \newpage
 \section{Resultados}
-Ao montar os circuitos \ref{Figura1},\ref{Figura2} e \ref{Figura3} no software MULTISIM, conseguimos obter os seguinte dados preenchidos na Tabela \ref{Tabela2}:	
-
-\centerline{\begin{minipage}[c]{\textwidth}
-		\centering
-		\noindent
-		\captionof{table}{Valores obtidos dos circuitos}
-		\begin{tabular}{ll|c|c|l|}
-			\cline{3-5}
-			&     & Circuito $ 1 $ & Circuito $ 2 $ & Circuito $ 3 $ \\ \hline
-			\multicolumn{1}{|c|}{\multirow{3}{*}{Osciloscópio}} & $V_e$ $ (V_{pp}) $   &            &            &            \\ \cline{2-5} 
-			\multicolumn{1}{|c|}{}                              & $V_s$ $ (V_{pp}) $   &            &            &            \\ \cline{2-5} 
-			\multicolumn{1}{|c|}{}                              & $A_V$ $ (V_s/V_e) $   &            &            &            \\ \hline
-			\multicolumn{1}{|l|}{\multirow{3}{*}{Bode Plotter}} & $A_V$ em frequências médias $ (dB) $   &            &            &            \\ \cline{2-5} 
-			\multicolumn{1}{|l|}{}                              & frequência $ 1 $ a $ (-3dB) $ &            &            &            \\ \cline{2-5} 
-			\multicolumn{1}{|l|}{}                              & frequência $ 2 $ a $ (-3dB) $ &            &            &            \\ \hline
-		\end{tabular}
-		\legend{Fonte: Produzido pelos autores}
-		\label{Tabela2}
-\end{minipage}}
 
 \subsection{Amplificador $ 1^\circ $ estágio}
+Temos a seguinte montagem do circuito da figura \ref{Figura1} com a utilização do MULTISIM:
 
 
+\begin{center}
+	\textbf{--- ADD a imagem - Simulação\_Circuito1.png ---}
+\end{center}
+
+Com a utilização do Osciloscópio do simulador, conseguimos obter a forma de onda da entrada e da saída, que para uma melhor visualização deixando as duas formas de onda com escalas diferentes.
 
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
@@ -132,7 +119,7 @@ Ao montar os circuitos \ref{Figura1},\ref{Figura2} e \ref{Figura3} no software M
 		\label{Oscilloscope_Circuito1}
 \end{minipage}}
 
-Para uma melhor visualização, a escala dos dois gráficos estão diferentes.
+Usando o Bode Plotter, conseguimos analisar o gráfico do ganho em relação a frequência do circuito.
 
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
@@ -152,6 +139,8 @@ Para uma melhor visualização, a escala dos dois gráficos estão diferentes.
 		\label{BodePlotter_Circuito1_Parte2}
 \end{minipage}}
 
+Com as informações encontradas, obtemos a seguintes informações:
+
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
 		\noindent
@@ -162,16 +151,23 @@ Para uma melhor visualização, a escala dos dois gráficos estão diferentes.
 		\multicolumn{1}{|c|}{\multirow{3}{*}{Osciloscópio}} &  $V_e$ $ (V_{pp}) $    &   $ 2mV $         \\ \cline{2-3} 
 		\multicolumn{1}{|c|}{}                              & $V_s$ $ (V_{pp}) $   &       $ 55,1mV $     \\ \cline{2-3} 
 		\multicolumn{1}{|c|}{}                              &  $A_V$ $ (V_s/V_e) $   &      $ 27,55 $      \\ \hline
-		\multicolumn{1}{|l|}{\multirow{3}{*}{Bode Plotter}} & $A_V$ em frequências médias $ (dB) $   &       $ 28,8 $     \\ \cline{2-3} 
+		\multicolumn{1}{|l|}{\multirow{3}{*}{Bode Plotter}} & $A_V$ em frequências médias $ (dB) $   &       $ 28,8 dB $     \\ \cline{2-3} 
 		\multicolumn{1}{|l|}{}                              & frequência $ 1 $ a $ (-3dB) $ &      $ 454,523mHz  $  \\ \cline{2-3} 
-		\multicolumn{1}{|l|}{}                              & frequência $ 2 $ a $ (-3dB) $ &        $ 7,256MHz $    \\ \hline
+		\multicolumn{1}{|l|}{}                              & frequência $ 2 $ a $ (-3dB) $ &        $ 7,286MHz $    \\ \hline
 	\end{tabular}
 		\legend{Fonte: Produzido pelos autores}
 		\label{Tab_Circuito1}
 \end{minipage}}
 
 \subsection{Amplificador $ 2^\circ $ estágio}
+Temos a seguinte montagem do circuito da figura \ref{Figura2} com a utilização do MULTISIM:
 
+
+\begin{center}
+	\textbf{--- ADD a imagem - Simulação\_Circuito2.png ---}
+\end{center}
+
+Com a utilização do Osciloscópio do simulador, conseguimos obter a forma de onda da entrada e da saída, que para uma melhor visualização deixando as duas formas de onda com escalas diferentes.
 
 
 \centerline{\begin{minipage}[c]{\textwidth}
@@ -183,7 +179,7 @@ Para uma melhor visualização, a escala dos dois gráficos estão diferentes.
 		\label{Oscilloscope_Circuito2}
 \end{minipage}}
 
-Para uma melhor visualização, a escala dos dois gráficos estão diferentes.
+Usando o Bode Plotter, conseguimos analisar o gráfico do ganho em relação a frequência do circuito.
 
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
@@ -203,6 +199,8 @@ Para uma melhor visualização, a escala dos dois gráficos estão diferentes.
 		\label{BodePlotter_Circuito2_Parte2}
 \end{minipage}}
 
+Com as informações encontradas, obtemos a seguintes informações:
+
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
 		\noindent
@@ -213,7 +211,7 @@ Para uma melhor visualização, a escala dos dois gráficos estão diferentes.
 			\multicolumn{1}{|c|}{\multirow{3}{*}{Osciloscópio}} &  $V_e$ $ (V_{pp}) $    &   $ 2mV $         \\ \cline{2-3} 
 			\multicolumn{1}{|c|}{}                              & $V_s$ $ (V_{pp}) $   &       $ 4,81mV $     \\ \cline{2-3} 
 			\multicolumn{1}{|c|}{}                              &  $A_V$ $ (V_s/V_e) $   &      $ 2,405 $      \\ \hline
-			\multicolumn{1}{|l|}{\multirow{3}{*}{Bode Plotter}} & $A_V$ em frequências médias $ (dB) $   &       $ 7,62 $     \\ \cline{2-3} 
+			\multicolumn{1}{|l|}{\multirow{3}{*}{Bode Plotter}} & $A_V$ em frequências médias $ (dB) $   &       $ 7,62 dB $     \\ \cline{2-3} 
 			\multicolumn{1}{|l|}{}                              & frequência $ 1 $ a $ (-3dB) $ &      $ 435,032mHz  $  \\ \cline{2-3} 
 			\multicolumn{1}{|l|}{}                              & frequência $ 2 $ a $ (-3dB) $ &        $ 5,138MHz $    \\ \hline
 		\end{tabular}
@@ -223,7 +221,14 @@ Para uma melhor visualização, a escala dos dois gráficos estão diferentes.
 
 \subsection{Amplificador com dois estágios}
 
+Temos a seguinte montagem do circuito da figura \ref{Figura3} com a utilização do MULTISIM:
 
+
+\begin{center}
+	\textbf{--- ADD a imagem - Simulação\_Circuito3.png ---}
+\end{center}
+
+Com a utilização do Osciloscópio do simulador, conseguimos obter a forma de onda da entrada e da saída, que para uma melhor visualização deixando as duas formas de onda com escalas diferentes.
 
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
@@ -234,7 +239,7 @@ Para uma melhor visualização, a escala dos dois gráficos estão diferentes.
 		\label{Oscilloscope_Circuito3}
 \end{minipage}}
 
-Para uma melhor visualização, a escala dos dois gráficos estão diferentes.
+Usando o Bode Plotter, conseguimos analisar o gráfico do ganho em relação a frequência do circuito.
 
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
@@ -254,6 +259,8 @@ Para uma melhor visualização, a escala dos dois gráficos estão diferentes.
 		\label{BodePlotter_Circuito3_Parte2}
 \end{minipage}}
 
+Com as informações encontradas, obtemos a seguintes informações:
+
 \centerline{\begin{minipage}[c]{\textwidth}
 		\centering
 		\noindent
@@ -263,13 +270,43 @@ Para uma melhor visualização, a escala dos dois gráficos estão diferentes.
 			&     & Circuito 3 \\ \hline
 			\multicolumn{1}{|c|}{\multirow{3}{*}{Osciloscópio}} &  $V_e$ $ (V_{pp}) $    &   $ 2mV $         \\ \cline{2-3} 
 			\multicolumn{1}{|c|}{}                              & $V_s$ $ (V_{pp}) $   &       $ 162mV $     \\ \cline{2-3} 
-			\multicolumn{1}{|c|}{}                              &  $A_V$ $ (V_s/V_e) $   &      $ 2,405 $      \\ \hline
-			\multicolumn{1}{|l|}{\multirow{3}{*}{Bode Plotter}} & $A_V$ em frequências médias $ (dB) $   &       $ 7,62 $     \\ \cline{2-3} 
-			\multicolumn{1}{|l|}{}                              & frequência $ 1 $ a $ (-3dB) $ &      $ 435,032mHz  $  \\ \cline{2-3} 
-			\multicolumn{1}{|l|}{}                              & frequência $ 2 $ a $ (-3dB) $ &        $ 5,138MHz $    \\ \hline
+			\multicolumn{1}{|c|}{}                              &  $A_V$ $ (V_s/V_e) $   &      $ 81 $      \\ \hline
+			\multicolumn{1}{|l|}{\multirow{3}{*}{Bode Plotter}} & $A_V$ em frequências médias $ (dB) $   &       $ 38,17 dB $     \\ \cline{2-3} 
+			\multicolumn{1}{|l|}{}                              & frequência $ 1 $ a $ (-3dB) $ &      $ 235,093mHz  $  \\ \cline{2-3} 
+			\multicolumn{1}{|l|}{}                              & frequência $ 2 $ a $ (-3dB) $ &        $ 17,23MHz $    \\ \hline
 		\end{tabular}
 		\legend{Fonte: Produzido pelos autores}
 		\label{Tab_Circuito3}
 \end{minipage}}
+
+\subsection{Análise}
+Para facilitar a análise, juntamos as informações obtidas de cada circuito numa tabela só.
+
+\centerline{\begin{minipage}[c]{\textwidth}
+		\centering
+		\noindent
+		\captionof{table}{Valores obtidos dos circuitos}
+		\begin{tabular}{ll|c|c|c|}
+			\cline{3-5}
+			&     & Circuito $ 1 $ & Circuito $ 2 $ & Circuito $ 3 $ \\ \hline
+			\multicolumn{1}{|c|}{\multirow{3}{*}{Osciloscópio}} & $V_e$ $ (V_{pp}) $   &$ 2mV $&$ 2mV $&$ 2mV $\\ \cline{2-5} 
+			\multicolumn{1}{|c|}{}                              & $V_s$ $ (V_{pp}) $   &$ 55,1mV $&$ 4,81mV $&$ 162mV $            \\ \cline{2-5} 
+			\multicolumn{1}{|c|}{}                              & $A_V$ $ (V_s/V_e) $   &$ 27,55 $&$ 2,405 $&   $ 81 $         \\ \hline
+			\multicolumn{1}{|l|}{\multirow{3}{*}{Bode Plotter}} & $A_V$ em frequências médias $ (dB) $   &$ 28,8dB $&$ 7,62dB $ &$ 38,17 dB $ \\ \cline{2-5} 
+			\multicolumn{1}{|l|}{}                              & frequência $ 1 $ a $ (-3dB) $ &$ 454,523mHz $&$ 435,032mHz $& $ 235,093mHz  $  \\ \cline{2-5} 
+			\multicolumn{1}{|l|}{}                              & frequência $ 2 $ a $ (-3dB) $ &$ 7,286MHz $&$ 5,138MHz $& $ 17,23MHz $ \\ \hline
+		\end{tabular}
+		\legend{Fonte: Produzido pelos autores}
+		\label{Tabela2}
+\end{minipage}}
+
+\begin{enumerate}
+	\item Analise os resultados apontados na Tabela \ref{Tabela2} e explique:
+	\begin{enumerate}
+		\item Por que a frequência de corte inferior $ (fr_1) $ para o circuito da figura \ref{Figura1} é maior que para o circuito da figura \ref{Figura2}?
+		\item Por que o ganho, para a faixa de frequência médias, do circuito da figura \ref{Figura1} é bem maior do que o circuito da figura \ref{Figura2}?
+	\end{enumerate}
+\end{enumerate}
+
 
 

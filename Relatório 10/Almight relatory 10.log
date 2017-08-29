@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  28 AUG 2017 21:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  28 AUG 2017 21:49
 entering extended mode
 **"./Almight relatory 10.tex"
 ("Almight relatory 10.tex"
@@ -1509,7 +1509,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 28.
 See the caption package documentation for explanation.
 
-<Imagens/Figura1.jpg, id=80, 862.72313pt x 465.99094pt>
+<Imagens/Figura1.jpg, id=82, 862.72313pt x 465.99094pt>
 File: Imagens/Figura1.jpg Graphic file (type jpg)
 <use Imagens/Figura1.jpg>
 Package pdftex.def Info: Imagens/Figura1.jpg  used on input line 28. on input l
@@ -1537,7 +1537,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 47.
 See the caption package documentation for explanation.
 
-<Imagens/Figura2.jpg, id=83, 858.95906pt x 484.81125pt>
+<Imagens/Figura2.jpg, id=85, 858.95906pt x 484.81125pt>
 File: Imagens/Figura2.jpg Graphic file (type jpg)
 <use Imagens/Figura2.jpg>
 Package pdftex.def Info: Imagens/Figura2.jpg  used on input line 47. on input l
@@ -1550,7 +1550,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 65.
 See the caption package documentation for explanation.
 
-<Imagens/Figura3.jpg, id=99, 871.75688pt x 453.19313pt>
+<Imagens/Figura3.jpg, id=101, 871.75688pt x 453.19313pt>
 File: Imagens/Figura3.jpg Graphic file (type jpg)
 <use Imagens/Figura3.jpg>
 Package pdftex.def Info: Imagens/Figura3.jpg  used on input line 65. on input l
@@ -1565,181 +1565,187 @@ See the caption package documentation for explanation.
 
 [9 <./Imagens/Figura3.jpg>] [10]
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\circ' on input line 103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 103.
+
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 120.
 See the caption package documentation for explanation.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 122.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 122.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\circ' on input line 122.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 122.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 133.
-See the caption package documentation for explanation.
-
-<Imagens/Oscilloscope_Circuito1.jpg, id=138, 579.66562pt x 402.75468pt>
+<Imagens/Oscilloscope_Circuito1.jpg, id=137, 579.66562pt x 402.75468pt>
 File: Imagens/Oscilloscope_Circuito1.jpg Graphic file (type jpg)
 <use Imagens/Oscilloscope_Circuito1.jpg>
 Package pdftex.def Info: Imagens/Oscilloscope_Circuito1.jpg  used on input line
- 133. on input line 133.
+ 120. on input line 120.
 Package pdftex.def Info: Requested size: 409.49722pt x 284.51976pt on input lin
-e 133.
+e 120.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 144.
+(caption)                particular \caption on input line 131.
 See the caption package documentation for explanation.
 
-<Imagens/BodePlotter_Circuito1_Parte1.jpg, id=141, 490.08093pt x 234.1247pt>
+<Imagens/BodePlotter_Circuito1_Parte1.jpg, id=140, 490.08093pt x 234.1247pt>
 File: Imagens/BodePlotter_Circuito1_Parte1.jpg Graphic file (type jpg)
 <use Imagens/BodePlotter_Circuito1_Parte1.jpg>
 Package pdftex.def Info: Imagens/BodePlotter_Circuito1_Parte1.jpg  used on inpu
-t line 144. on input line 144.
+t line 131. on input line 131.
 Package pdftex.def Info: Requested size: 409.49722pt x 195.63452pt on input lin
-e 144.
+e 131.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 153.
+(caption)                particular \caption on input line 140.
 See the caption package documentation for explanation.
 
-<Imagens/BodePlotter_Circuito1_Parte2.jpg, id=144, 491.58656pt x 234.8775pt>
+<Imagens/BodePlotter_Circuito1_Parte2.jpg, id=143, 491.58656pt x 234.8775pt>
 File: Imagens/BodePlotter_Circuito1_Parte2.jpg Graphic file (type jpg)
 <use Imagens/BodePlotter_Circuito1_Parte2.jpg>
 Package pdftex.def Info: Imagens/BodePlotter_Circuito1_Parte2.jpg  used on inpu
-t line 153. on input line 153.
+t line 140. on input line 140.
 Package pdftex.def Info: Requested size: 409.49722pt x 195.66147pt on input lin
-e 153.
+e 140.
 [11 <./Imagens/Oscilloscope_Circuito1.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 171.
+(caption)                particular \caption on input line 160.
 See the caption package documentation for explanation.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 173.
+(hyperref)                removing `math shift' on input line 162.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 173.
+(hyperref)                removing `superscript' on input line 162.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\circ' on input line 173.
+(hyperref)                removing `\circ' on input line 162.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 173.
+(hyperref)                removing `math shift' on input line 162.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 184.
-See the caption package documentation for explanation.
-
-<Imagens/Oscilloscope_Circuito2.jpg, id=154, 578.91281pt x 400.49625pt>
-File: Imagens/Oscilloscope_Circuito2.jpg Graphic file (type jpg)
-<use Imagens/Oscilloscope_Circuito2.jpg>
-Package pdftex.def Info: Imagens/Oscilloscope_Circuito2.jpg  used on input line
- 184. on input line 184.
-Package pdftex.def Info: Requested size: 409.49722pt x 283.291pt on input line 
-184.
 [12 <./Imagens/BodePlotter_Circuito1_Parte1.jpg> <./Imagens/BodePlotter_Circuit
 o1_Parte2.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 195.
+(caption)                particular \caption on input line 180.
+See the caption package documentation for explanation.
+
+<Imagens/Oscilloscope_Circuito2.jpg, id=162, 578.91281pt x 400.49625pt>
+File: Imagens/Oscilloscope_Circuito2.jpg Graphic file (type jpg)
+<use Imagens/Oscilloscope_Circuito2.jpg>
+Package pdftex.def Info: Imagens/Oscilloscope_Circuito2.jpg  used on input line
+ 180. on input line 180.
+Package pdftex.def Info: Requested size: 409.49722pt x 283.291pt on input line 
+180.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 191.
 See the caption package documentation for explanation.
 
 <Imagens/BodePlotter_Circuito2_Parte1.jpg, id=165, 491.58656pt x 234.8775pt>
 File: Imagens/BodePlotter_Circuito2_Parte1.jpg Graphic file (type jpg)
 <use Imagens/BodePlotter_Circuito2_Parte1.jpg>
 Package pdftex.def Info: Imagens/BodePlotter_Circuito2_Parte1.jpg  used on inpu
-t line 195. on input line 195.
+t line 191. on input line 191.
 Package pdftex.def Info: Requested size: 409.49722pt x 195.66147pt on input lin
-e 195.
+e 191.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 204.
+(caption)                particular \caption on input line 200.
 See the caption package documentation for explanation.
 
 <Imagens/BodePlotter_Circuito2_Parte2.jpg, id=168, 490.83376pt x 234.8775pt>
 File: Imagens/BodePlotter_Circuito2_Parte2.jpg Graphic file (type jpg)
 <use Imagens/BodePlotter_Circuito2_Parte2.jpg>
 Package pdftex.def Info: Imagens/BodePlotter_Circuito2_Parte2.jpg  used on inpu
-t line 204. on input line 204.
+t line 200. on input line 200.
 Package pdftex.def Info: Requested size: 409.49722pt x 195.96252pt on input lin
-e 204.
+e 200.
+[13 <./Imagens/Oscilloscope_Circuito2.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 222.
+(caption)                particular \caption on input line 220.
 See the caption package documentation for explanation.
 
-[13 <./Imagens/Oscilloscope_Circuito2.jpg> <./Imagens/BodePlotter_Circuito2_Par
-te1.jpg>]
+[14 <./Imagens/BodePlotter_Circuito2_Parte1.jpg> <./Imagens/BodePlotter_Circuit
+o2_Parte2.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 235.
+(caption)                particular \caption on input line 240.
 See the caption package documentation for explanation.
 
-<Imagens/Oscilloscope_Circuito3.jpg, id=179, 578.91281pt x 395.97937pt>
+<Imagens/Oscilloscope_Circuito3.jpg, id=186, 578.91281pt x 395.97937pt>
 File: Imagens/Oscilloscope_Circuito3.jpg Graphic file (type jpg)
 <use Imagens/Oscilloscope_Circuito3.jpg>
 Package pdftex.def Info: Imagens/Oscilloscope_Circuito3.jpg  used on input line
- 235. on input line 235.
+ 240. on input line 240.
 Package pdftex.def Info: Requested size: 409.49722pt x 280.096pt on input line 
-235.
-[14 <./Imagens/BodePlotter_Circuito2_Parte2.jpg>]
+240.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 246.
+(caption)                particular \caption on input line 251.
 See the caption package documentation for explanation.
 
-<Imagens/BodePlotter_Circuito3_Parte1.jpg, id=188, 489.32813pt x 234.8775pt>
+<Imagens/BodePlotter_Circuito3_Parte1.jpg, id=189, 489.32813pt x 234.8775pt>
 File: Imagens/BodePlotter_Circuito3_Parte1.jpg Graphic file (type jpg)
 <use Imagens/BodePlotter_Circuito3_Parte1.jpg>
 Package pdftex.def Info: Imagens/BodePlotter_Circuito3_Parte1.jpg  used on inpu
-t line 246. on input line 246.
+t line 251. on input line 251.
 Package pdftex.def Info: Requested size: 409.49722pt x 196.56104pt on input lin
-e 246.
+e 251.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 255.
+(caption)                particular \caption on input line 260.
 See the caption package documentation for explanation.
 
-<Imagens/BodePlotter_Circuito3_Parte2.jpg, id=191, 490.83376pt x 234.1247pt>
+<Imagens/BodePlotter_Circuito3_Parte2.jpg, id=192, 490.83376pt x 234.1247pt>
 File: Imagens/BodePlotter_Circuito3_Parte2.jpg Graphic file (type jpg)
 <use Imagens/BodePlotter_Circuito3_Parte2.jpg>
 Package pdftex.def Info: Imagens/BodePlotter_Circuito3_Parte2.jpg  used on inpu
-t line 255. on input line 255.
+t line 260. on input line 260.
 Package pdftex.def Info: Requested size: 409.49722pt x 195.33444pt on input lin
-e 255.
+e 260.
+[15 <./Imagens/Oscilloscope_Circuito3.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 273.
+(caption)                particular \caption on input line 280.
 See the caption package documentation for explanation.
 
-[15 <./Imagens/Oscilloscope_Circuito3.jpg> <./Imagens/BodePlotter_Circuito3_Par
-te1.jpg>]) [16 <./Imagens/BodePlotter_Circuito3_Parte2.jpg>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 301.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (39.76892pt too wide) in paragraph at lines 301--301
+ [][] 
+ []
+
+[16 <./Imagens/BodePlotter_Circuito3_Parte1.jpg> <./Imagens/BodePlotter_Circuit
+o3_Parte2.jpg>]) [17]
 \openout2 = `Conclusao.aux'.
 
- (Conclusao.tex)
-[17
+ (Conclusao.tex) [18
 
 
 
-] ("Almight relatory 10.bbl" ("Almight relatory 10.brf")
+] ("Almight relatory 10.bbl"
+("Almight relatory 10.brf")
 \tf@brf=\write5
 \openout5 = `"Almight relatory 10.brf"'.
 
@@ -1752,7 +1758,7 @@ bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [18
+) [19
 
 
 ]
@@ -1770,13 +1776,13 @@ Package rerunfilecheck Info: File `"Almight relatory 10".brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 17260 strings out of 493323
- 259475 string characters out of 3139034
- 538179 words of memory out of 3000000
- 20302 multiletter control sequences out of 15000+200000
- 75635 words of font info for 99 fonts, out of 3000000 for 9000
+ 17270 strings out of 493323
+ 259565 string characters out of 3139034
+ 540179 words of memory out of 3000000
+ 20303 multiletter control sequences out of 15000+200000
+ 75813 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,92p,583b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,12n,92p,583b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
@@ -1791,9 +1797,9 @@ X 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmsy8.pfb>
-Output written on "Almight relatory 10.pdf" (19 pages, 1046079 bytes).
+Output written on "Almight relatory 10.pdf" (20 pages, 1054780 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 25805 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 353 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 25813 words of extra memory for PDF output out of 29859 (max. 10000000)
 
