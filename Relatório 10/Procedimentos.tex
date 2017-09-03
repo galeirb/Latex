@@ -4,11 +4,128 @@
 
 \chapter{Desenvolvimento}
 \section{Fundamentação Teórica}
+
+
+\subsection{Resposta Frequência}
+
+Os sistemas de controle industriais são muitas vezes projetados pelo uso de métodos de resposta em frequência. Muitas técnicas estão disponíveis tanto para o projeto quanto para análise de tais sistemas. O critério da estabilidade de \textit{Nyquist}, a ser estudado mais adiante, nos permite investigar tanto a estabilidade absoluta quanto à estabilidade relativa de sistemas lineares de malha fechada a partir de um conhecimento de suas características de resposta em frequência em malha aberta. Ao usar este critério de estabilidade, não temos que determinar as raízes da equação característica. Esta é uma vantagem da técnica de resposta em frequência. Uma outra vantagem desta técnica é que os testes da resposta em frequência são, em geral, simples e podem ser feitos precisamente pelo uso de geradores de sinais senoidais prontamente disponíveis e de equipamentos de medida precisos. Muitas vezes as funções de transferência de componentes complicados podem ser determinadas experimentalmente pelos testes da resposta em frequência. Além disso, plantas com incertezas ou plantas que são deficientemente conhecidas podem ser manipuladas pelos métodos de resposta em frequência. Um sistema pode ser projetado pelo uso da técnica de resposta em frequência de tal forma que os efeitos de ruídos indesejáveis sejam desprezíveis. Finalmente, as análises e os projetos de resposta em frequência de um sistema de controle podem ser estendidos a certos sistemas de controle não lineares. 
+
+A resposta de frequência de um sistema é definida como a resposta de estado estacionário do sistema a um sinal senoidal de entrada. A senoide é um sinal de entrada peculiar, e o sinal de saída resultante em um sistema linear, bem como os sinais ao longo deste, é senoidal em regime permanente; difere da forma de onda do sinal de entrada somente no que diz respeito a amplitude e ângulo de fase. 
+
+
+
+As principais vantagens deste tipo de abordagem decorrem de:
 \begin{enumerate}
-	\item Diagrama de bode
-	\item Resposta em frequência
-	\item Explicar um filtro passa baixa, passa alta, rejeita faixa e passa faixa (um exemplo prático desta aplicação) \ldots
+	\item Facilidade com que a resposta em frequência de um sistema pode ser obtida. 
+	\item Possibilidade de determinar a função de transferência de determinados sistemas. 
+	\item Possibilidade de analisar a estabilidade absoluta e relativa de um sistema, mesmo quando se desconhece a sua função de transferência em cadeia fechada.
+	\item Possibilidade de projetar um sistema de controlo, ainda que se desconheça a função
+	de transferência. 
+	\item O projeto de sistemas de controlo no domínio da frequência permite ao projetista controlar a largura de banda e minimizar os efeitos do ruído a que o sistema está sujeito.
+	\item Existência de uma relação, no mínimo indireta, entre a resposta em frequência e a resposta transitória. 
+	
 \end{enumerate}
+
+É importante notar que pelo facto de se analisar um sistema de controlo no domínio da frequência, não significa que alguma vez, este esteja sujeito a entradas sinusoidais. 
+
+
+Seguidamente apresentam-se duas das representações possíveis da resposta em frequência: 
+\begin{enumerate}
+	\item Diagrama de Bode.
+	\item Diagramas Polares.
+\end{enumerate}
+
+
+
+
+\subsection{Diagrama de Bode}
+
+Os diagramas de Bode (“Bode plots”) que levam este
+nome devido à Hendrik Wade Bode (1905-1982), um engenheiro americano que atuava principalmente nas áreas de eletrônica, telecomunicações e sistemas. Os diagramas de Bode (de módulo e de fase) são uma das formas de caracterizar sinais no domínio da frequência. Onde é composto por dois gráficos. O primeiro representa a curva do módulo de $ G(j\omega) $ em decibeis ($ 20 \times log|G(j\omega)| $) e o segundo representa a curva da fase. Sendo ambos função da frequência em escala logarítmica.
+
+O Diagrama de Bode é usado em circuitos elétricos, filtros e sistemas de controle. Ele permite extrair muitas informações importantes para o conhecimento das características dos sistemas.As principais vantagens da representação em diagrama de Bode são as seguintes: 
+
+\begin{enumerate}
+	\item Uma vez que a amplitude de $ G(j\omega) $ é expressa em decibeis ($ dB $), produtos e divisões de factores elementares $ G(j\omega) $ transformam-se em adições e subtrações de ganhos, respectivamente. As fases são igualmente adicionadas ou subtraidas.
+	\item As curvas do ganho de $ G(j\omega) $ podem ser aproximadas por segmentos de recta, o que permite um esboço rápido e simples, sem o recurso a cálculos muito complicados. 
+	\item O facto da frequência estar representada numa escala logarítmica permite uma análise	das características da resposta em frequência, tanto nas altas como nas baixas frequências. 
+\end{enumerate}
+
+\subsection{Filtro Passa Baixa}
+
+O filtro passa-baixa é caracteriza um circuito eletrônico que permite a passagem de baixas frequências e atenua (ou reduz) a amplitude das frequências maiores que a frequência de corte, na figura, representada por “$ f_c $”. A quantidade de atenuação para cada frequência varia de filtro para filtro dependendo do objetivo desejado. 
+
+Um dos usos do filtro passa baixa é em transmissores de rádio, que utilizam tais circuitos eletrônicos para filtrar as emissões harmônicas que podem causar interferência com outras comunicações.
+
+\centerline{\begin{minipage}[c]{\textwidth}
+		\centering
+		\noindent
+		\captionof{figure}{Diagrama Filtro Passa Baixa}
+		\includegraphics[width=0.9\textwidth]{Imagens/FiltroPassaBaixa.png}
+		\legend{Fonte: Produzido pelos autores}
+		\label{FiltroPassaBaixa}
+\end{minipage}}
+
+\subsection{Filtro Passa Alta}
+
+O filtro passa alta é um filtro que permite a passagem das frequências altas, e atenua (ou reduz) a amplitude das frequências abaixo de frequência de corte ($ f_c $). O filtro passa alta possui um princípio de funcionamento oposto ao do filtro passa baixa. 
+
+Esse filtro é muito utilizado para bloquear as frequências baixas não desejadas em um sinal complexo enquanto permite a passagem das frequências mais altas.
+
+
+\centerline{\begin{minipage}[c]{\textwidth}
+		\centering
+		\noindent
+		\captionof{figure}{Diagrama Filtro Passa Alta}
+		\includegraphics[width=0.9\textwidth]{Imagens/FiltroPassaAlta.png}
+		\legend{Fonte: Produzido pelos autores}
+		\label{FiltroPassaAlta}
+\end{minipage}}
+
+\subsection{Filtro Passa Faixa}
+
+O filtro passa faixa (ou passa-banda) é um circuito elétrico que permite a passagem das frequências de uma certa faixa e rejeita (atenua) as frequências fora dessa faixa. 
+
+Um filtro passa-faixa analógico é o circuito $ RLC $ (um circuito resistor-indutor-capacitor). Tais filtros também podem ser obtidos através da combinação entre um filtro passa-baixas e um filtro passa-altas.
+
+\centerline{\begin{minipage}[c]{\textwidth}
+		\centering
+		\noindent
+		\captionof{figure}{Circuito Passa Faixa}
+		\includegraphics[width=0.5\textwidth]{Imagens/FiltroPassaFaixa1.png}
+		\legend{Fonte: Produzido pelos autores}
+		\label{FiltroPassaFaixa1}
+\end{minipage}}
+
+\centerline{\begin{minipage}[c]{\textwidth}
+		\centering
+		\noindent
+		\captionof{figure}{Diagrama Passa Faixa}
+		\includegraphics[width=0.9\textwidth]{Imagens/FiltroPassaFaixa2.png}
+		\legend{Fonte: Produzido pelos autores}
+		\label{FiltroPassaFaixa2}
+\end{minipage}}
+
+\subsection{Filtro Rejeita Faixa}
+O filtro rejeita faixa ou filtro de rejeição de banda é um filtro que permite a passagem da maioria das frequências inalteradas, porém atenua aquelas que estejam em uma faixa determinada pelo filtro. O princípio de funcionamento é o oposto do filtro passa-faixa.
+
+\centerline{\begin{minipage}[c]{\textwidth}
+		\centering
+		\noindent
+		\captionof{figure}{Circuito Rejeita Faixa}
+		\includegraphics[width=0.5\textwidth]{Imagens/FiltroRejeitaFaixa1.png}
+		\legend{Fonte: Produzido pelos autores}
+		\label{FiltroRejeitaFaixa1}
+\end{minipage}}
+
+\centerline{\begin{minipage}[c]{\textwidth}
+		\centering
+		\noindent
+		\captionof{figure}{Diagrama Rejeita Faixa}
+		\includegraphics[width=0.4\textwidth]{Imagens/FiltroRejeitaFaixa2.png}
+		\legend{Fonte: Produzido pelos autores}
+		\label{FiltroRejeitaFaixa2}
+\end{minipage}}
 
 
 
@@ -292,7 +409,7 @@ Para facilitar a análise, juntamos as informações obtidas de cada circuito nu
 			\multicolumn{1}{|c|}{\multirow{3}{*}{Osciloscópio}} & $V_e$ $ (V_{pp}) $   &$ 2mV $&$ 2mV $&$ 2mV $\\ \cline{2-5} 
 			\multicolumn{1}{|c|}{}                              & $V_s$ $ (V_{pp}) $   &$ 55,1mV $&$ 4,81mV $&$ 162mV $            \\ \cline{2-5} 
 			\multicolumn{1}{|c|}{}                              & $A_V$ $ (V_s/V_e) $   &$ 27,55 $&$ 2,405 $&   $ 81 $         \\ \hline
-			\multicolumn{1}{|l|}{\multirow{3}{*}{Bode Plotter}} & $A_V$ em frequências médias $ (dB) $   &$ 28,8dB $&$ 7,62dB $ &$ 38,17 dB $ \\ \cline{2-5} 
+			\multicolumn{1}{|l|}{\multirow{3}{*}{Bode Plotter}} & $A_V$ em frequências médias &$ 28,8dB $&$ 7,62dB $ &$ 38,17 dB $ \\ \cline{2-5} 
 			\multicolumn{1}{|l|}{}                              & frequência $ 1 $ a $ (-3dB) $ &$ 454,523mHz $&$ 435,032mHz $& $ 235,093mHz  $  \\ \cline{2-5} 
 			\multicolumn{1}{|l|}{}                              & frequência $ 2 $ a $ (-3dB) $ &$ 7,286MHz $&$ 5,138MHz $& $ 17,23MHz $ \\ \hline
 		\end{tabular}
@@ -304,7 +421,13 @@ Para facilitar a análise, juntamos as informações obtidas de cada circuito nu
 	\item Analise os resultados apontados na Tabela \ref{Tabela2} e explique:
 	\begin{enumerate}
 		\item Por que a frequência de corte inferior $ (fr_1) $ para o circuito da figura \ref{Figura1} é maior que para o circuito da figura \ref{Figura2}?
+		
+		\textit{A diferença do circuito da figura \ref{Figura1} para a figura \ref{Figura2} é que possui um capacitor de $ 500 \mu F $ na saída do emissor, fazendo assim um filtro de passa baixa, aumentando a frequência de corte do circuito da figura \ref{Figura1}.}
+		
 		\item Por que o ganho, para a faixa de frequência médias, do circuito da figura \ref{Figura1} é bem maior do que o circuito da figura \ref{Figura2}?
+		
+		\textit{Com capacitor adicionado da figura \ref{Figura1} na saída do emissor, temos que quando o transistor está trabalhando em corrente alternada, por ser de alta frequência em $ CA $, temos que o capacitor se assemelha a um curto circuito, fazendo com que o $ R_E $ que não interfira no circuito, havendo assim uma impedância de entrada menor, onde a corrente de entrada ($ I_B $) é maior, fazendo com que a impedância de saída seja maior. Já na figura \ref{Figura2} sem o capacitor no emissor, faz com que em $ CA $ o circuito tenha uma impedância de entrada muito maior, por causa do aparecimento do $ R_E $, fazendo com que tenha uma corrente de entrada menor ($ I_B $), onde influencia na impedância de saída, fazendo com que fique menor. Consequentemente o ganho do circuito da figura \ref{Figura1} é bem maior do que o circuito da figura \ref{Figura2}}
+		
 	\end{enumerate}
 \end{enumerate}
 

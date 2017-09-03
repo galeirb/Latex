@@ -7,18 +7,24 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Desenvolvimento}}{6}{chapter.1}
 \contentsline {section}{\numberline {1.1}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{6}{section.1.1}
-\contentsline {section}{\numberline {1.2}Procedimentos}{7}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Amplificador $ 1^\circ $ est\IeC {\'a}gio}{7}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Amplificador $ 2^\circ $ est\IeC {\'a}gio}{8}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Amplificador com dois est\IeC {\'a}gios}{9}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Analise}{9}{subsection.1.2.4}
-\contentsline {section}{\numberline {1.3}Resultados}{11}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Amplificador $ 1^\circ $ est\IeC {\'a}gio}{11}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Amplificador $ 2^\circ $ est\IeC {\'a}gio}{13}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Amplificador com dois est\IeC {\'a}gios}{15}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}An\IeC {\'a}lise}{17}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.1.1}Resposta Frequ\IeC {\^e}ncia}{6}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Diagrama de Bode}{7}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Filtro Passa Baixa}{8}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Filtro Passa Alta}{8}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.5}Filtro Passa Faixa}{9}{subsection.1.1.5}
+\contentsline {subsection}{\numberline {1.1.6}Filtro Rejeita Faixa}{10}{subsection.1.1.6}
+\contentsline {section}{\numberline {1.2}Procedimentos}{11}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Amplificador $ 1^\circ $ est\IeC {\'a}gio}{11}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Amplificador $ 2^\circ $ est\IeC {\'a}gio}{12}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Amplificador com dois est\IeC {\'a}gios}{13}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Analise}{13}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Resultados}{15}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Amplificador $ 1^\circ $ est\IeC {\'a}gio}{15}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Amplificador $ 2^\circ $ est\IeC {\'a}gio}{17}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Amplificador com dois est\IeC {\'a}gios}{19}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}An\IeC {\'a}lise}{21}{subsection.1.3.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Conclus\~{a}o}}{18}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Conclus\~{a}o}}{22}{chapter.2}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{19}{section*.7}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{23}{section*.7}
