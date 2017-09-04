@@ -5,4 +5,36 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[]{ref}
+\abntrefinfo{nada}{NADA}{a}
+{PROF. José Renes Pinheiro.}
+
+\bibitem[Leal]{ref2}
+\abntrefinfo{Leal}{LEAL}{}
+{LEAL, P. D. A.~B. \emph{Análise da resposta em frequência}.
+Dispon{\'\i}vel em:
+  \url{http://www.joinville.udesc.br/portal/professores/andre\_leal/materiais/Capitulo\_4.pdf}.
+  Acesso em: 30 de agosto de 2017.}
+
+\bibitem[Lourenço]{ref4}
+\abntrefinfo{Lourenço}{LOURENçO}{}
+{LOURENçO, J. M. G. D.~A. \emph{Respostas em frequência}.
+Dispon{\'\i}vel em:
+  \url{http://ltodi.est.ips.pt/smarques/CS/folhas\_freq\_response.pdf}. Acesso
+  em: 30 de agosto de 2017.}
+
+\bibitem[Pinheiro]{ref5}
+\abntrefinfo{Pinheiro}{PINHEIRO}{}
+{PINHEIRO, P. J.~R. \emph{Método da resposta em frequência}.
+Dispon{\'\i}vel em:
+  \url{http://coral.ufsm.br/gepoc/renes/Templates/arquivos/elc1031/ELC1031.L8.1.pdf}.
+  Acesso em: 30 de agosto de 2017.}
+
+\bibitem[Souza]{ref3}
+\abntrefinfo{Souza}{SOUZA}{}
+{SOUZA, J. A. M.~F. de. \emph{Diagramas de Bode}.
+Dispon{\'\i}vel em:
+  \url{http://www.netsoft.inf.br/aulas/7\_EAC\_Sistemas\_Realimentados/3\_Apoio\_diagramas\_de\_Bode.pdf}.
+  Acesso em: 30 de agosto de 2017.}
+
 \end{thebibliography}

@@ -7,8 +7,21 @@ A level-1 auxiliary file: Conclusao.aux
 The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
 Database file #2: Referencias.bib
+You're missing a field name---line 2 of file Referencias.bib
+ :  @misc{ref,
+ :            1
+I'm skipping whatever remains of this entry
+Warning--para ordenar, precisa dos campos author, organization, editor, title ou key in ref
+`title' is a missing field, not a string, for entry ref
+while executing---line 2146 of file abntex2-alf.bst
+Warning--campo year vazio ou faltando em ref
+Warning--campo year vazio ou faltando em ref2
+Warning--campo year vazio ou faltando em ref4
+Warning--campo year vazio ou faltando em ref5
+Warning--campo year vazio ou faltando em ref3
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
+(There were 2 error messages)
